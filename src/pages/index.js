@@ -26,17 +26,18 @@ export default () => {
     // this is where all the code of the main page goes
     <ThemeProvider theme={createMuiTheme(myTheme)}>
       <Container maxWidth="md">
-        <Box display="flex" flexDirection="column" alignItems="center" m={4}>
+        <Box style={{ marginTop: "100px"}} display="flex" flexDirection="column" alignItems="center" m={4}>
           <Avatar
             style={{ width: "200px", height: "200px" }}
-            src="https://media-exp1.licdn.com/dms/image/C4E03AQGCbYImgB7q2g/profile-displayphoto-shrink_800_800/0?e=1590624000&v=beta&t=jcIRT-aXkLQCvV5t5SsYFhdCzA4GTJsVK_wtpVNGpr0"
-          />
+            src="https://media-exp1.licdn.com/dms/image/C4D03AQFwih7E9JQp7Q/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=P6HnpeP-xdweIDs-MLJjZ-sIjnY-47ZPddAZbWsQIU0"
+            />
+          <Typography style={{ marginTop: "20px"}}variant="h4">Hajra Shahab</Typography>
+          </Box>
           <Box mt={3} alignItems="center">
-            <Typography variant="h4">Hajra Shahab</Typography>
             <Typography variant="overline">'Researcher consulting public sector to resolve socio-economic issues'</Typography>
             <Typography color="secondary">Hajra Shahab</Typography>
           </Box>
-        </Box>
+          
       </Container>
     </ThemeProvider>
   )
