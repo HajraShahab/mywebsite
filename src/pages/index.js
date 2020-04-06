@@ -33,11 +33,10 @@ export default () => {
             />
           <Typography style={{ marginTop: "20px"}}variant="h4">Hajra Shahab</Typography>
           </Box>
-          <Box mt={3} alignItems="center">
-            <Typography variant="overline">'Researcher consulting public sector to resolve socio-economic issues'</Typography>
-            <Typography color="secondary">Hajra Shahab</Typography>
+          <Box border={1} bgcolor="grey.500" borderColor="grey.500" borderRadius={16} mt={3} alignItems="center" textAlign="center" fontWeight="fontWeightLight" fontFamily="Roboto" lineHeight="normal">  
+            <Typography variant="overline">'Hi, I’m Hajra Shahab, a multidisciplinary researcher with profound interest in data analytics, urban informatics policy, and design.  I am a strong advocate of interdiscplinary collaborative approach to unlock unconventional solutions to some of the most pressing urban issues that cities face in the 21st century.'</Typography>
+            <Typography color="secondary">Cities    |     Tech       |       Design       |   Data-driven service delivery</Typography>
           </Box>
-          
       </Container>
     </ThemeProvider>
   )
