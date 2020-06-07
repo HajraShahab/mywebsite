@@ -3,12 +3,13 @@
 1.  **install and start developing**
 
     ```shell
-    yarn install && yarn start
+    $npm i \\download packages for node.js
+    $npm run \\starts the app locally 
     ```
 
 1.  **Start developing.**
 
-    Navigate to `Open ports` and open page
+    Navigate to `localhost:8000' and open page
 
 
 1.  **Open the source code and start editing!**
