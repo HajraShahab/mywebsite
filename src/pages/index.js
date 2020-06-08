@@ -37,12 +37,12 @@ export default () => {
       <Container maxWidth="md">
         <Box style={{ marginTop: "100px", display: 'flex', flexDirection: 'column', alignItems: 'center', margin: '32px'}}>
           <Avatar
-            style={{ width: "373px", height: "400px" }}
+            style={{ width: "200px", height: "200px" }}
             src="https://media-exp1.licdn.com/dms/image/C4D03AQFwih7E9JQp7Q/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=P6HnpeP-xdweIDs-MLJjZ-sIjnY-47ZPddAZbWsQIU0"
             />
           <Typography fontFamily='Roboto' fontSize='52px' style={{ marginTop: "20px"}} variant="h4">Hajra Shahab</Typography>
         </Box>
-          <Box style={{ widht: "400px", height: "255px", border: '1px solid lightgrey', borderRadius: '16px', marginTop: '24px' , alignItems: "center", textAlign: "center", lineHeight: 'normal'}}  fontWeight="fontWeightLight" fontFamily="Roboto">  
+          <Box style={{ widht: "100px", height: "70px", border: '2px solid lightgrey', marginTop: '30px' , alignItems: "center", textAlign: "center"}}>  
             <Typography variant="body">Hi, I’m Hajra Shahab, a multidisciplinary researcher with profound interest in data analytics, urban informatics policy, and design. I am a strong advocate of interdiscplinary collaborative approach to unlock unconventional solutions to some of the most pressing urban issues that cities face in the 21st century.</Typography>
             </Box>
         <Box>    
