@@ -26,12 +26,12 @@ export default () => {
     // this is where all the code of the main page goes
     <ThemeProvider theme={createMuiTheme(myTheme)}>
       <AppBar position="static">
-        <Toolbar variant='dense' style={{backgroundColor:"grey"}}>
-            <Typography style={{marginRight:'20px'}} variant="h4">About</Typography>
-            <Typography style={{marginRight:'20px'}} variant="h4">Projects</Typography>
-            <Typography style={{marginRight:'20px'}} variant="h4">Blog</Typography>
-            <Typography style={{marginRight:'20px'}} variant="h4">Vlog</Typography>
-            <Typography style={{marginRight:'20px'}} variant="h4">Contact</Typography>
+        <Toolbar variant='dense' style={{backgroundColor:"#fafafa"}}>
+            <Typography style={{marginRight:'20px'}} variant="h5">About</Typography>
+            <Typography style={{marginRight:'20px'}} variant="h5">Projects</Typography>
+            <Typography style={{marginRight:'20px'}} variant="h5">Blog</Typography>
+            <Typography style={{marginRight:'20px'}} variant="h5">Vlog</Typography>
+            <Typography style={{marginRight:'20px'}} variant="h5">Contact</Typography>
         </Toolbar>
       </AppBar> 
       <Container maxWidth="md">
@@ -42,7 +42,7 @@ export default () => {
             />
           <Typography fontFamily='Roboto' fontSize='52px' style={{ marginTop: "20px"}} variant="h4">Hajra Shahab</Typography>
         </Box>
-          <Box style={{ widht: "100px", height: "70px", border: '2px solid lightgrey', marginTop: '30px' , alignItems: "center", textAlign: "center"}}>  
+          <Box style={{ width: "700px", height: "70px", border: '2px solid lightgrey', marginTop: '30px' , alignItems: "center", textAlign: "center"}}>  
             <Typography variant="body">Hi, I’m Hajra Shahab, a multidisciplinary researcher with profound interest in data analytics, urban informatics policy, and design. I am a strong advocate of interdiscplinary collaborative approach to unlock unconventional solutions to some of the most pressing urban issues that cities face in the 21st century.</Typography>
             </Box>
         <Box>    
