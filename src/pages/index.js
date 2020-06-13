@@ -27,7 +27,7 @@ export default () => {
     <ThemeProvider theme={createMuiTheme(myTheme)}>
       <AppBar position="static">
         <Toolbar variant='dense' style={{backgroundColor:"#fafafa"}}>
-            <Typography style={{marginRight:'20px'}} variant="h5">About</Typography>
+            <Typography style={{marginRight:'20px'}} style= {{h1: "color: 500"}} variant="h5">About</Typography>
             <Typography style={{marginRight:'20px'}} variant="h5">Projects</Typography>
             <Typography style={{marginRight:'20px'}} variant="h5">Blog</Typography>
             <Typography style={{marginRight:'20px'}} variant="h5">Vlog</Typography>
