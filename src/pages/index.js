@@ -27,7 +27,9 @@ export default () => {
     <ThemeProvider theme={createMuiTheme(myTheme)}>
       <AppBar position="static">
         <Toolbar variant='dense' style={{backgroundColor:"#fafafa"}}>
-            <Typography style={{marginRight:'20px', color: "#CBA01C", paddingRight: '1200px'}} variant="h5">About</Typography> //fix padding issue
+            <Typography style={{marginRight:'20px', color: "#CBA01C"}} variant="h5">EN</Typography>
+            <Typography style={{marginRight:'auto', color: "#CBA01C"}} variant="h5">JP</Typography> 
+            <Typography style={{marginRight:'20px', color: "#CBA01C"}} variant="h5">About</Typography> 
             <Typography style={{marginRight:'20px', color: "#CBA01C"}} variant="h5">Projects</Typography>
             <Typography style={{marginRight:'20px', color: "#CBA01C"}} variant="h5">Blog</Typography>
             <Typography style={{marginRight:'20px', color: "#CBA01C"}} variant="h5">Vlog</Typography>
