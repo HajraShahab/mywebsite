@@ -27,28 +27,28 @@ export default () => {
     <ThemeProvider theme={createMuiTheme(myTheme)}>
       <AppBar position="static">
         <Toolbar variant='dense' style={{backgroundColor:"#fafafa"}}>
-            <Typography style={{marginRight:'20px', color: "#CBA01C"}} variant="h5">EN</Typography>
-            <Typography style={{marginRight:'auto', color: "#CBA01C"}} variant="h5">JP</Typography> 
-            <Typography style={{marginRight:'20px', color: "#CBA01C"}} variant="h5">About</Typography> 
-            <Typography style={{marginRight:'20px', color: "#CBA01C"}} variant="h5">Projects</Typography>
-            <Typography style={{marginRight:'20px', color: "#CBA01C"}} variant="h5">Blog</Typography>
-            <Typography style={{marginRight:'20px', color: "#CBA01C"}} variant="h5">Vlog</Typography>
-            <Typography style={{marginRight:'20px', color: "#CBA01C"}} variant="h5">Contact</Typography>
+            <Typography style={{href: "https://fonts.googleapis.com/css2?family=Lora&display=swap", rel: "stylesheet", fontFamily: 'Lora', marginRight:'20px', color: "#CBA01C"}} variant="h5">EN</Typography>
+            <Typography style={{href: "https://fonts.googleapis.com/css2?family=Lora&display=swap", rel: "stylesheet", fontFamily: 'Lora', marginRight:'auto', color: "#CBA01C"}} variant="h5">JP</Typography> 
+            <Typography style={{href: "https://fonts.googleapis.com/css2?family=Lora&display=swap", rel: "stylesheet", fontFamily: 'Lora', marginRight:'20px', color: "#CBA01C"}} variant="h5">About</Typography> 
+            <Typography style={{href: "https://fonts.googleapis.com/css2?family=Lora&display=swap", rel: "stylesheet", fontFamily: 'Lora', marginRight:'20px', color: "#CBA01C"}} variant="h5">Projects</Typography>
+            <Typography style={{href: "https://fonts.googleapis.com/css2?family=Lora&display=swap", rel: "stylesheet", fontFamily: 'Lora', marginRight:'20px', color: "#CBA01C"}} variant="h5">Blog</Typography>
+            <Typography style={{href: "https://fonts.googleapis.com/css2?family=Lora&display=swap", rel: "stylesheet", fontFamily: 'Lora', marginRight:'20px', color: "#CBA01C"}} variant="h5">Vlog</Typography>
+            <Typography style={{href: "https://fonts.googleapis.com/css2?family=Lora&display=swap", rel: "stylesheet", fontFamily: 'Lora', marginRight:'20px', color: "#CBA01C"}} variant="h5">Contact</Typography>
         </Toolbar>
       </AppBar> 
-      <Container maxWidth="md">
+      <Container maxWidth="sm">
         <Box style={{ marginTop: "100px", display: 'flex', flexDirection: 'column', alignItems: 'center', margin: '32px'}}>
           <Avatar
             style={{ width: "200px", height: "200px" }}
             src="https://media-exp1.licdn.com/dms/image/C4D03AQFwih7E9JQp7Q/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=P6HnpeP-xdweIDs-MLJjZ-sIjnY-47ZPddAZbWsQIU0"
             />
-          <Typography fontFamily='Roboto' fontSize='52px' style={{ marginTop: "20px"}} variant="h4">Hajra Shahab</Typography>
+          <Typography style={{href: "https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap", rel: "stylesheet", fontFamily: "'Roboto', sansSerif", fontSize:"52px", marginTop:"20px"}} variant="h4">Hajra Shahab</Typography>
         </Box>
-          <Box style={{ width: "700px", height: "70px", border: '2px solid lightgrey', marginTop: '30px' , alignItems: "center", textAlign: "center"}}>  
+          <Box style={{href: "https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap", rel: "stylesheet", fontFamily: "'Roboto', sansSerif", maxWidth: "700px", height: "100px", border: '2px solid lightgrey', marginTop: '40px', alignItems: 'center', textAlign: 'center'}}>  
             <Typography variant="body">Hi, I’m Hajra Shahab, a multidisciplinary researcher with profound interest in data analytics, urban informatics policy, and design. I am a strong advocate of interdiscplinary collaborative approach to unlock unconventional solutions to some of the most pressing urban issues that cities face in the 21st century.</Typography>
             </Box>
         <Box>    
-            <Typography textAlign="center" color="secondary">Cities|Tech|Design|Data-driven service delivery</Typography>
+            <Typography style={{href: "https://fonts.googleapis.com/css2?family=Lora&display=swap", rel: "stylesheet", fontFamily: 'Lora', fontWeight: "400px", marginRight:'20px', color: "#CBA01C", textAlign: 'center', marginTop: '10px'}}>Data Analytics   | Public Policy   | Cities  | Transportation and Mobility</Typography>
             </Box> 
       </Container>
     </ThemeProvider>
