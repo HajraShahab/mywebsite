@@ -56,7 +56,7 @@ export default () => {
         <Typography variant="body">Hi, I’m Hajra Shahab, a multidisciplinary researcher with profound interest in data analytics, urban informatics policy, and design. I am a strong advocate of interdiscplinary collaborative approach to unlock unconventional solutions to some of the most pressing urban issues that cities face in the 21st century.</Typography>
             </Box>
         <Box>    
-            <Typography style={{href: "https://fonts.googleapis.com/css2?family=Lora&display=swap", rel: "stylesheet", fontFamily: 'Lora', fontWeight: "400px", marginRight:'20px', color: "#fff", textAlign: 'center', marginTop: '40px'}} variant="h6">Data Analytics   | Public Policy   | Cities  | Transportation and Mobility</Typography>
+            <Typography style={{href: "https://fonts.googleapis.com/css2?family=Lora&display=swap", rel: "stylesheet", fontFamily: 'Lora', fontWeight: "400px", marginRight:'20px', color: "#fff", textAlign: 'center', marginTop: '20px'}} variant="h6">Data Analytics   | Public Policy   | Cities  | Transportation and Mobility</Typography>
             </Box>
       </Container>
     </ThemeProvider>
