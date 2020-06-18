@@ -27,11 +27,11 @@ export default () => {
     <ThemeProvider theme={createMuiTheme(myTheme)}>
         <Box>
           <Avatar variant="square"
-          style={{position: 'fixed', top: '0', width: "1500px", height: "700px", zIndex: "-1"}}
+          style={{opacity:"0.8", position: 'fixed', top: '0', width: "1500px", height: "700px", zIndex: "-1"}}
           img src="https://images.unsplash.com/photo-1563861141459-8d525c27a88e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Shibuya Crossing"/>
         </Box>
       <AppBar position="static">
-        <Toolbar variant='dense' style={{backgroundColor:"#fafafa", opacity: '0.5'}}>
+        <Toolbar variant='dense' style={{backgroundColor: "#FFFFFF"}}>
             <Typography style={{href: "https://fonts.googleapis.com/css2?family=Lora&display=swap", rel: "stylesheet", fontFamily: 'Lora', marginRight:'20px', color: "#CBA01C"}} variant="h5">EN</Typography>
             <Typography style={{href: "https://fonts.googleapis.com/css2?family=Lora&display=swap", rel: "stylesheet", fontFamily: 'Lora', marginRight:'auto', color: "#CBA01C"}} variant="h5">JP</Typography> 
             <Typography style={{href: "https://fonts.googleapis.com/css2?family=Lora&display=swap", rel: "stylesheet", fontFamily: 'Lora', marginLeft:'20px', color: "#CBA01C"}} variant="h5">About</Typography> 
@@ -49,11 +49,14 @@ export default () => {
             />
           <Typography style={{fontFamily: 'Roboto', fontWeight: 'fontWeightLight' , fontSize:"50px", marginTop:"20px", color: '#fff'}} variant="h4">Hajra Shahab</Typography>
         </Box>
-          <Box style={{fontFamily: 'Roboto', fontWeight: 'fontWeightLight', maxWidth: "700px", height: "100px", border: 'px solid lightgrey', marginTop: '40px', alignItems: 'center', textAlign: 'center', color: '#fff'}}>  
-            <Typography variant="body">Hi, I’m Hajra Shahab, a multidisciplinary researcher with profound interest in data analytics, urban informatics policy, and design. I am a strong advocate of interdiscplinary collaborative approach to unlock unconventional solutions to some of the most pressing urban issues that cities face in the 21st century.</Typography>
+          <Box style={{height: "200px", width: "500px", backgroundColor: "#FFFFFF", marginRight:'20px', opacity:"0.5"}}>
+          <div name="viewport" content="width= deviceWidth" initialScale='1'></div>
+            </Box>
+        <Box style={{fontFamily: 'Roboto', fontWeight: 'fontWeightLight', maxWidth: "700px", height: "100px", marginTop: '-200px', alignItems: 'center', textAlign: 'center', color: '#fff'}}>
+        <Typography variant="body">Hi, I’m Hajra Shahab, a multidisciplinary researcher with profound interest in data analytics, urban informatics policy, and design. I am a strong advocate of interdiscplinary collaborative approach to unlock unconventional solutions to some of the most pressing urban issues that cities face in the 21st century.</Typography>
             </Box>
         <Box>    
-            <Typography style={{href: "https://fonts.googleapis.com/css2?family=Lora&display=swap", rel: "stylesheet", fontFamily: 'Lora', fontWeight: "400px", marginRight:'20px', color: "#fff", textAlign: 'center', marginTop: '10px'}} variant="h6">Data Analytics   | Public Policy   | Cities  | Transportation and Mobility</Typography>
+            <Typography style={{href: "https://fonts.googleapis.com/css2?family=Lora&display=swap", rel: "stylesheet", fontFamily: 'Lora', fontWeight: "400px", marginRight:'20px', color: "#fff", textAlign: 'center', marginTop: '40px'}} variant="h6">Data Analytics   | Public Policy   | Cities  | Transportation and Mobility</Typography>
             </Box>
       </Container>
     </ThemeProvider>
