@@ -31,7 +31,8 @@ export default () => {
           opacity: "0.8",
           position: "fixed",
           top: "0",
-          width: "100vw",
+          width: "auto",
+          minWidth: "100vw",
           height: "100vh",
           zIndex: "-1",
         }}
