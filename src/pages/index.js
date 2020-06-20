@@ -28,19 +28,19 @@ export default () => {
     <ThemeProvider theme={createMuiTheme(myTheme)}>
       <img
         style={{
-          opacity: "0.8",
+          opacity: "1",
           position: "fixed",
           top: "0",
           width: "auto",
           minWidth: "100vw",
-          height: "100vh",
+          height: "140vh",
           zIndex: "-1",
         }}
         src="https://images.unsplash.com/photo-1563861141459-8d525c27a88e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
         alt="Shibuya Crossing"
       />
       <AppBar position="static" elevation={0}>
-        <Toolbar variant="dense" style={{ backgroundColor: "#FFFFFF" }}>
+        <Toolbar variant="dense" style={{ backgroundColor: "transparent" }}>
           <Typography
             style={{
               href:
@@ -146,8 +146,8 @@ export default () => {
             }}
           >
             <Avatar
-              style={{ width: "200px", height: "200px" }}
-              src="https://media-exp1.licdn.com/dms/image/C5603AQF_wD7eIHmZog/profile-displayphoto-shrink_200_200/0?e=1597881600&v=beta&t=mwNm37Qxga4rCR90uI-r8YOMmt0lb_JqzPwW_rJJPGI"
+              style={{ width: "250px", height: "250px" }}
+              src="https://pbs.twimg.com/profile_images/1268930034330488840/E4l_gP_c_400x400.jpg"
             />
             <Typography
               style={{
@@ -155,7 +155,7 @@ export default () => {
                 fontWeight: "fontWeightLight",
                 fontSize: "50px",
                 marginTop: "20px",
-                color: "#fff",
+                color: "#FFFFFF",
               }}
               variant="h4"
             >
@@ -170,8 +170,8 @@ export default () => {
               alignItems: "center",
               textAlign: "center",
               padding: "10px",
-              color: "#fff",
-              background: "rgb(255, 255, 255, 0.5)",
+              color: "#FFFFFF",
+              background: "rgb(60, 60, 60, 0.4)",
             }}
           >
             <Typography variant="body">
@@ -191,6 +191,7 @@ export default () => {
                 fontWeight: "400px",
                 textAlign: "center",
                 marginTop: "20px",
+                color: "#FFFFFF",
               }}
               variant="h6"
             >
