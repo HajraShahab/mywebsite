@@ -39,14 +39,18 @@ export default () => {
         src="https://images.unsplash.com/photo-1563861141459-8d525c27a88e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
         alt="Shibuya Crossing"
       />
-      <AppBar position="static" elevation={0}>
+      <AppBar
+        position="static"
+        elevation={0}
+        style={{ backgroundColor: "transparent" }}
+      >
         <Toolbar variant="dense" style={{ backgroundColor: "transparent" }}>
           <Typography
             style={{
               href:
                 "https://fonts.googleapis.com/css2?family=Lora&display=swap",
               rel: "stylesheet",
-              fontFamily: "Lora",
+              fontFamily: "Lora, serif",
               marginRight: "20px",
               color: "#CBA01C",
             }}
@@ -59,7 +63,7 @@ export default () => {
               href:
                 "https://fonts.googleapis.com/css2?family=Lora&display=swap",
               rel: "stylesheet",
-              fontFamily: "Lora",
+              fontFamily: "Lora, serif",
               marginRight: "auto",
               color: "#CBA01C",
             }}
@@ -72,8 +76,8 @@ export default () => {
               href:
                 "https://fonts.googleapis.com/css2?family=Lora&display=swap",
               rel: "stylesheet",
-              fontFamily: "Lora",
-              marginLeft: "20px",
+              fontFamily: "Lora, serif",
+              marginLeft: "30px",
               color: "#CBA01C",
             }}
             variant="h5"
@@ -85,8 +89,8 @@ export default () => {
               href:
                 "https://fonts.googleapis.com/css2?family=Lora&display=swap",
               rel: "stylesheet",
-              fontFamily: "Lora",
-              marginLeft: "20px",
+              fontFamily: "Lora, serif",
+              marginLeft: "30px",
               color: "#CBA01C",
             }}
             variant="h5"
@@ -98,8 +102,8 @@ export default () => {
               href:
                 "https://fonts.googleapis.com/css2?family=Lora&display=swap",
               rel: "stylesheet",
-              fontFamily: "Lora",
-              marginLeft: "20px",
+              fontFamily: "Lora, serif",
+              marginLeft: "30px",
               color: "#CBA01C",
             }}
             variant="h5"
@@ -111,8 +115,8 @@ export default () => {
               href:
                 "https://fonts.googleapis.com/css2?family=Lora&display=swap",
               rel: "stylesheet",
-              fontFamily: "Lora",
-              marginLeft: "20px",
+              fontFamily: "Lora, serif",
+              marginLeft: "30px",
               color: "#CBA01C",
             }}
             variant="h5"
@@ -124,8 +128,8 @@ export default () => {
               href:
                 "https://fonts.googleapis.com/css2?family=Lora&display=swap",
               rel: "stylesheet",
-              fontFamily: "Lora",
-              marginLeft: "20px",
+              fontFamily: "Lora, serif",
+              marginLeft: "30px",
               color: "#CBA01C",
             }}
             variant="h5"
@@ -151,7 +155,7 @@ export default () => {
             />
             <Typography
               style={{
-                fontFamily: "Roboto",
+                fontFamily: "Roboto, sans-serif",
                 fontWeight: "fontWeightLight",
                 fontSize: "50px",
                 marginTop: "20px",
@@ -165,8 +169,8 @@ export default () => {
 
           <Box
             style={{
-              fontFamily: "Roboto",
-              fontWeight: "fontWeightLight",
+              fontFamily: "Lora, serif",
+              fontWeight: "100px",
               alignItems: "center",
               textAlign: "center",
               padding: "10px",
@@ -187,7 +191,7 @@ export default () => {
                 href:
                   "https://fonts.googleapis.com/css2?family=Lora&display=swap",
                 rel: "stylesheet",
-                fontFamily: "Lora",
+                fontFamily: "Lora, serif",
                 fontWeight: "400px",
                 textAlign: "center",
                 marginTop: "20px",
