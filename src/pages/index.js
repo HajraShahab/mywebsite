@@ -199,8 +199,7 @@ export default () => {
               }}
               variant="h6"
             >
-              Data Analytics | Public Policy | Cities | Transportation and
-              Mobility
+              Karachi | Lahore | Tokyo | Pittsburgh
             </Typography>
           </Box>
         </Container>
