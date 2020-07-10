@@ -52,7 +52,7 @@ export default () => {
               rel: "stylesheet",
               fontFamily: "Lora, serif",
               marginRight: "20px",
-              color: "#CBA01C",
+              color: "#FFB300",
             }}
             variant="h5"
           >
@@ -65,7 +65,7 @@ export default () => {
               rel: "stylesheet",
               fontFamily: "Lora, serif",
               marginRight: "auto",
-              color: "#CBA01C",
+              color: "#FFB300",
             }}
             variant="h5"
           >
@@ -78,7 +78,7 @@ export default () => {
               rel: "stylesheet",
               fontFamily: "Lora, serif",
               marginLeft: "30px",
-              color: "#CBA01C",
+              color: "#FFB300",
             }}
             variant="h5"
           >
@@ -91,7 +91,7 @@ export default () => {
               rel: "stylesheet",
               fontFamily: "Lora, serif",
               marginLeft: "30px",
-              color: "#CBA01C",
+              color: "#FFB300",
             }}
             variant="h5"
           >
@@ -104,7 +104,7 @@ export default () => {
               rel: "stylesheet",
               fontFamily: "Lora, serif",
               marginLeft: "30px",
-              color: "#CBA01C",
+              color: "#FFB300",
             }}
             variant="h5"
           >
@@ -117,7 +117,7 @@ export default () => {
               rel: "stylesheet",
               fontFamily: "Lora, serif",
               marginLeft: "30px",
-              color: "#CBA01C",
+              color: "#FFB300",
             }}
             variant="h5"
           >
@@ -130,7 +130,7 @@ export default () => {
               rel: "stylesheet",
               fontFamily: "Lora, serif",
               marginLeft: "30px",
-              color: "#CBA01C",
+              color: "#FFB300",
             }}
             variant="h5"
           >
