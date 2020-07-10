@@ -8,26 +8,23 @@ import {
   Typography,
   Container,
 } from "@material-ui/core"
-import { ThemeProvider } from "@material-ui/styles"
 export default () => {
-  function myTheme() {
-    // this is where all the code of the main page goes
-    return (
-      <ThemeProvider theme={createMuiTheme(myTheme)}>
-        <Typography
-          style={{
-            fontFamily: "Roboto, sans-serif",
-            fontWeight: "fontWeightLight",
-            fontSize: "50px",
-            marginTop: "20px",
-            color: "#FFFFFF",
-          }}
-          variant="h4"
-        >
-          Hajra Shahab
-        </Typography>
-        <Link to="/">Go back to the homepage</Link>
-      </ThemeProvider>
-    )
-  }
+  // this is where all the code of the main page goes
+  return (
+    <Box>
+      <Typography
+        style={{
+          fontFamily: "Roboto, sans-serif",
+          fontWeight: "fontWeightLight",
+          fontSize: "50px",
+          marginTop: "20px",
+          color: "#FFFFFF",
+        }}
+        variant="h4"
+      >
+        Hajra Shahab
+      </Typography>
+      <Link to="/">Go back to the homepage</Link>
+    </Box>
+  )
 }
