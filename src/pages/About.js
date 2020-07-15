@@ -54,7 +54,11 @@ export default () => {
                 fontFamily: "Lora, serif",
                 marginRight: "20px",
                 color: "#FFB300",
+                textDecoration: "none",
               }}
+              visited={{ color: "#FFB300" }}
+              hover={{ color: "#FFB300", textDecoration: "underline" }} // hove and active text decoration not working
+              active={{ textDecoration: "underline" }}
             >
               EN
             </Link>
@@ -69,7 +73,11 @@ export default () => {
                 fontFamily: "Lora, serif",
                 marginRight: "auto",
                 color: "#FFB300",
+                textDecoration: "none",
               }}
+              visited={{ color: "#FFB300" }}
+              hover={{ color: "#FFB300", textDecoration: "underline" }} // hove and active text decoration not working
+              active={{ textDecoration: "underline" }}
             >
               JP
             </Link>
@@ -82,9 +90,13 @@ export default () => {
                   "https://fonts.googleapis.com/css2?family=Lora&display=swap",
                 rel: "stylesheet",
                 fontFamily: "Lora, serif",
-                marginLeft: "30px",
+                marginLeft: "970px", // I never had to use these px for index page. There seems to be a problem
                 color: "#FFB300",
+                textDecoration: "none",
               }}
+              visited={{ color: "#FFB300" }}
+              hover={{ color: "#FFB300", textDecoration: "underline" }} // hove and active text decoration not working
+              active={{ textDecoration: "underline" }}
             >
               About
             </Link>
@@ -99,7 +111,11 @@ export default () => {
                 fontFamily: "Lora, serif",
                 marginLeft: "30px",
                 color: "#FFB300",
+                textDecoration: "none",
               }}
+              visited={{ color: "#FFB300" }}
+              hover={{ color: "#FFB300", textDecoration: "underline" }} // hove and active text decoration not working
+              active={{ textDecoration: "underline" }}
             >
               Projects
             </Link>
@@ -114,7 +130,11 @@ export default () => {
                 fontFamily: "Lora, serif",
                 marginLeft: "30px",
                 color: "#FFB300",
+                textDecoration: "none",
               }}
+              visited={{ color: "#FFB300" }}
+              hover={{ color: "#FFB300", textDecoration: "underline" }} // hove and active text decoration not working
+              active={{ textDecoration: "underline" }}
             >
               Blog
             </Link>
@@ -129,7 +149,11 @@ export default () => {
                 fontFamily: "Lora, serif",
                 marginLeft: "30px",
                 color: "#FFB300",
+                textDecoration: "none",
               }}
+              visited={{ color: "#FFB300" }}
+              hover={{ color: "#FFB300", textDecoration: "underline" }} // hove and active text decoration not working
+              active={{ textDecoration: "underline" }}
             >
               Vlog
             </Link>
@@ -144,7 +168,11 @@ export default () => {
                 fontFamily: "Lora, serif",
                 marginLeft: "30px",
                 color: "#FFB300",
+                textDecoration: "none",
               }}
+              visited={{ color: "#FFB300" }}
+              hover={{ color: "#FFB300", textDecoration: "underline" }} // hove and active text decoration not working
+              active={{ textDecoration: "underline" }}
             >
               Contact
             </Link>
@@ -158,7 +186,7 @@ export default () => {
             fontWeight: "fontWeightLight",
             fontSize: "50px",
             textAlign: "center",
-            marginTop: "20px",
+            marginTop: "40px",
             color: "#FFFFFF",
           }}
           variant="h4"
@@ -205,11 +233,12 @@ export default () => {
             style={{
               fontFamily: "Roboto, sans-serif",
               fontWeight: "100px",
-              alignItems: "right",
-              textAlign: "right",
-              marginTop: "10px",
+              alignItems: "Left",
+              textAlign: "Left",
+              marginTop: "-90px", //I need to come back to this. I feel there is a better way to align these items
+              marginLeft: "800px",
               color: "#FFFFFF",
-              padding: "20px",
+              padding: "10px",
               verticalAlign: "top",
             }}
             variant="h6"
@@ -225,6 +254,7 @@ export default () => {
               marginTop: "5px",
               color: "#FFFFFF",
               padding: "10px",
+              marginLeft: "800px",
             }}
             variant="body"
           >
@@ -235,11 +265,11 @@ export default () => {
             style={{
               fontFamily: "Roboto, sans-serif",
               fontWeight: "100px",
-              alignItems: "right",
-              textAlign: "right",
-              marginTop: "5px",
+              alignItems: "left",
+              textAlign: "left",
+              marginTop: "10px",
               color: "#FFFFFF",
-              padding: "10px",
+              padding: "20px",
             }}
             variant="h6"
           >
@@ -253,12 +283,76 @@ export default () => {
               textAlign: "left",
               marginTop: "10px",
               color: "#FFFFFF",
-              padding: "10px",
+              padding: "20px",
             }}
             variant="body"
           >
             2020-2022
           </Typography>
+          <img
+            style={{
+              opacity: "1",
+              position: "fixed",
+              top: "280px",
+              width: "auto",
+              minWidth: "8vw",
+              height: "10vh",
+              marginLeft: "800px",
+            }}
+            src="https://traffic21.heinz.cmu.edu/wp-content/uploads/sites/23/2019/08/cropped-Traffic-21-Anniversary-top.jpg"
+            alt="Traffic21"
+          />
+        </Box>
+        <Box
+          style={{
+            background: "#C0C0C0",
+            padding: "40px",
+            marginTop: "20px",
+          }}
+        >
+          <Typography
+            style={{
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: "100px",
+              alignItems: "left",
+              textAlign: "left",
+              marginTop: "0",
+              color: "#18171D",
+              padding: "0",
+              textAlign: "center",
+            }}
+            variant="h6"
+          >
+            Stay Connected!
+          </Typography>
+          <Typography
+            style={{
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: "100px",
+              alignItems: "left",
+              textAlign: "left",
+              marginTop: "0",
+              color: "#18171D",
+              padding: "0",
+              textAlign: "center",
+            }}
+            variant="h6"
+          >
+            Email: hajrashahab05@gmail.com
+          </Typography>
+          <img
+            style={{
+              opacity: "1",
+              position: "fixed",
+              top: "495px",
+              width: "auto",
+              minWidth: "2vw",
+              height: "5vh",
+              marginLeft: "570px",
+            }}
+            src="https://image.flaticon.com/icons/png/512/61/61109.png"
+            alt="Linkedin"
+          />
         </Box>
       </Box>
     </ThemeProvider>
