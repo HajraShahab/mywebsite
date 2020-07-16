@@ -208,7 +208,117 @@ export default () => {
               textAlign: "left",
               marginTop: "10px",
               color: "#FFFFFF",
-              padding: "20px",
+              padding: "0px 0px 10px 10px",
+            }}
+            variant="h6"
+          >
+            ROLE
+          </Typography>
+          <Typography
+            style={{
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: "100px",
+              alignItems: "left",
+              textAlign: "left",
+              marginTop: "5px",
+              color: "#FFFFFF",
+              padding: "0 0 0 10px",
+            }}
+            variant="body"
+          >
+            Women in Transportation Fellow
+          </Typography>
+          <Typography
+            style={{
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: "100px",
+              alignItems: "Left",
+              textAlign: "Left",
+              marginTop: "-90px", //I need to come back to this. I feel there is a better way to align these items
+              marginLeft: "700px",
+              color: "#FFFFFF",
+              padding: "30px 0 10px 0",
+              verticalAlign: "top",
+            }}
+            variant="h6"
+          >
+            WORK
+          </Typography>
+          <Typography
+            style={{
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: "100px",
+              alignItems: "right",
+              textAlign: "right",
+              marginTop: "5px",
+              color: "#FFFFFF",
+              padding: "0 0 0 0",
+              marginLeft: "700px",
+            }}
+            variant="body"
+          >
+            Its hands were holograms that altered to match the convolutions of
+            the Flatline as a construct.
+          </Typography>
+          <Typography
+            style={{
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: "100px",
+              alignItems: "left",
+              textAlign: "left",
+              marginTop: "10px",
+              color: "#FFFFFF",
+              padding: "10px 10px 10px 10px",
+            }}
+            variant="h6"
+          >
+            DATE
+          </Typography>
+          <Typography
+            style={{
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: "100px",
+              alignItems: "left",
+              textAlign: "left",
+              marginTop: "10px",
+              color: "#FFFFFF",
+              padding: "10px 30px 30px 10px",
+            }}
+            variant="body"
+          >
+            2020-2022
+          </Typography>
+          <img
+            style={{
+              opacity: "1",
+              position: "absolute",
+              top: "280px",
+              width: "auto",
+              minWidth: "8vw",
+              height: "8vh",
+              marginLeft: "800px",
+              clip: "rect(350px)", //work with clip style again
+            }}
+            src="https://traffic21.heinz.cmu.edu/wp-content/uploads/sites/23/2019/08/cropped-Traffic-21-Anniversary-top.jpg"
+            alt="Traffic21"
+          />
+        </Box>
+        <Box
+          style={{
+            background: "rgb(51, 51, 51)",
+            padding: "10px",
+            marginTop: "20px",
+          }}
+        >
+          <Typography
+            style={{
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: "100px",
+              alignItems: "left",
+              textAlign: "left",
+              marginTop: "10px",
+              color: "#FFFFFF",
+              padding: "0px 0px 10px 10px",
               verticalAlign: "top",
             }}
             variant="h6"
@@ -223,11 +333,11 @@ export default () => {
               textAlign: "left",
               marginTop: "10px",
               color: "#FFFFFF",
-              padding: "20px",
+              padding: "0 0 0 10px",
             }}
             variant="body"
           >
-            Women in Transportation Fellow, 2020-2022
+            Project Manager
           </Typography>
           <Typography
             style={{
@@ -236,7 +346,7 @@ export default () => {
               alignItems: "Left",
               textAlign: "Left",
               marginTop: "-90px", //I need to come back to this. I feel there is a better way to align these items
-              marginLeft: "800px",
+              marginLeft: "700px",
               color: "#FFFFFF",
               padding: "10px",
               verticalAlign: "top",
@@ -254,7 +364,7 @@ export default () => {
               marginTop: "5px",
               color: "#FFFFFF",
               padding: "10px",
-              marginLeft: "800px",
+              marginLeft: "700px",
             }}
             variant="body"
           >
@@ -287,26 +397,136 @@ export default () => {
             }}
             variant="body"
           >
-            2020-2022
+            2019-2020
           </Typography>
           <img
             style={{
               opacity: "1",
-              position: "fixed",
-              top: "280px",
+              position: "absolute",
+              top: "500px",
               width: "auto",
-              minWidth: "8vw",
+              minWidth: "5vw",
               height: "10vh",
               marginLeft: "800px",
             }}
-            src="https://traffic21.heinz.cmu.edu/wp-content/uploads/sites/23/2019/08/cropped-Traffic-21-Anniversary-top.jpg"
-            alt="Traffic21"
+            src="https://sbasse.lums.edu.pk/sites/default/files/styles/medium/public/cs3.png?itok=whPxCULM"
+            alt="TPI"
+          />
+        </Box>
+        <Box
+          style={{
+            background: "rgb(51, 51, 51)",
+            padding: "10px",
+            marginTop: "20px",
+          }}
+        >
+          <Typography
+            style={{
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: "100px",
+              alignItems: "left",
+              textAlign: "left",
+              marginTop: "10px",
+              color: "#FFFFFF",
+              padding: "0px 0px 10px 10px",
+              verticalAlign: "top",
+            }}
+            variant="h6"
+          >
+            ROLE
+          </Typography>
+          <Typography
+            style={{
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: "100px",
+              alignItems: "left",
+              textAlign: "left",
+              marginTop: "10px",
+              color: "#FFFFFF",
+              padding: "0 0 0 10px",
+            }}
+            variant="body"
+          >
+            Management Trainee
+          </Typography>
+          <Typography
+            style={{
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: "100px",
+              alignItems: "Left",
+              textAlign: "Left",
+              marginTop: "-90px", //I need to come back to this. I feel there is a better way to align these items
+              marginLeft: "700px",
+              color: "#FFFFFF",
+              padding: "10px",
+              verticalAlign: "top",
+            }}
+            variant="h6"
+          >
+            WORK
+          </Typography>
+          <Typography
+            style={{
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: "100px",
+              alignItems: "right",
+              textAlign: "right",
+              marginTop: "5px",
+              color: "#FFFFFF",
+              padding: "10px",
+              marginLeft: "700px",
+            }}
+            variant="body"
+          >
+            Its hands were holograms that altered to match the convolutions of
+            the Flatline as a construct.
+          </Typography>
+          <Typography
+            style={{
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: "100px",
+              alignItems: "left",
+              textAlign: "left",
+              marginTop: "10px",
+              color: "#FFFFFF",
+              padding: "20px",
+            }}
+            variant="h6"
+          >
+            DATE
+          </Typography>
+          <Typography
+            style={{
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: "100px",
+              alignItems: "left",
+              textAlign: "left",
+              marginTop: "10px",
+              color: "#FFFFFF",
+              padding: "20px",
+            }}
+            variant="body"
+          >
+            2018-2019
+          </Typography>
+          <img
+            style={{
+              opacity: "1",
+              position: "absolute",
+              top: "700px",
+              width: "auto",
+              minWidth: "8vw",
+              height: "15vh",
+              marginLeft: "800px",
+            }}
+            src="https://avpn.asia/wp-content/uploads/2014/11/mitsubishi.jpg"
+            alt="Mitsubishi Corporation"
           />
         </Box>
         <Box
           style={{
             background: "#C0C0C0",
-            padding: "40px",
+            padding: "10",
             marginTop: "20px",
           }}
         >
@@ -318,7 +538,7 @@ export default () => {
               textAlign: "left",
               marginTop: "0",
               color: "#18171D",
-              padding: "0",
+              padding: "0px 0px 0px 0px",
               textAlign: "center",
             }}
             variant="h6"
@@ -343,8 +563,8 @@ export default () => {
           <img
             style={{
               opacity: "1",
-              position: "fixed",
-              top: "495px",
+              position: "absolute",
+              top: "925px",
               width: "auto",
               minWidth: "2vw",
               height: "5vh",
