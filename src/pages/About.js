@@ -216,7 +216,7 @@ export default () => {
           </Typography>
           <Typography
             style={{
-              fontFamily: "Roboto, sans-serif",
+              fontFamily: "Lora, serif",
               fontWeight: "100px",
               alignItems: "left",
               textAlign: "left",
@@ -246,7 +246,7 @@ export default () => {
           </Typography>
           <Typography
             style={{
-              fontFamily: "Roboto, sans-serif",
+              fontFamily: "Lora, serif",
               fontWeight: "100px",
               alignItems: "right",
               textAlign: "right",
@@ -276,7 +276,7 @@ export default () => {
           </Typography>
           <Typography
             style={{
-              fontFamily: "Roboto, sans-serif",
+              fontFamily: "Lora, serif",
               fontWeight: "100px",
               alignItems: "left",
               textAlign: "left",
@@ -319,7 +319,6 @@ export default () => {
               marginTop: "10px",
               color: "#FFFFFF",
               padding: "0px 0px 10px 10px",
-              verticalAlign: "top",
             }}
             variant="h6"
           >
@@ -327,11 +326,11 @@ export default () => {
           </Typography>
           <Typography
             style={{
-              fontFamily: "Roboto, sans-serif",
+              fontFamily: "Lora, serif",
               fontWeight: "100px",
               alignItems: "left",
               textAlign: "left",
-              marginTop: "10px",
+              marginTop: "5px",
               color: "#FFFFFF",
               padding: "0 0 0 10px",
             }}
@@ -348,7 +347,7 @@ export default () => {
               marginTop: "-90px", //I need to come back to this. I feel there is a better way to align these items
               marginLeft: "700px",
               color: "#FFFFFF",
-              padding: "10px",
+              padding: "30px 0 10px 0",
               verticalAlign: "top",
             }}
             variant="h6"
@@ -357,13 +356,13 @@ export default () => {
           </Typography>
           <Typography
             style={{
-              fontFamily: "Roboto, sans-serif",
+              fontFamily: "Lora, serif",
               fontWeight: "100px",
               alignItems: "right",
               textAlign: "right",
               marginTop: "5px",
               color: "#FFFFFF",
-              padding: "10px",
+              padding: "0 0 0 0",
               marginLeft: "700px",
             }}
             variant="body"
@@ -379,7 +378,7 @@ export default () => {
               textAlign: "left",
               marginTop: "10px",
               color: "#FFFFFF",
-              padding: "20px",
+              padding: "10px 10px 10px 10px",
             }}
             variant="h6"
           >
@@ -387,13 +386,13 @@ export default () => {
           </Typography>
           <Typography
             style={{
-              fontFamily: "Roboto, sans-serif",
+              fontFamily: "Lora, serif",
               fontWeight: "100px",
               alignItems: "left",
               textAlign: "left",
               marginTop: "10px",
               color: "#FFFFFF",
-              padding: "20px",
+              padding: "10px 30px 30px 10px",
             }}
             variant="body"
           >
@@ -403,7 +402,7 @@ export default () => {
             style={{
               opacity: "1",
               position: "absolute",
-              top: "500px",
+              top: "450px",
               width: "auto",
               minWidth: "5vw",
               height: "10vh",
@@ -429,7 +428,6 @@ export default () => {
               marginTop: "10px",
               color: "#FFFFFF",
               padding: "0px 0px 10px 10px",
-              verticalAlign: "top",
             }}
             variant="h6"
           >
@@ -437,11 +435,11 @@ export default () => {
           </Typography>
           <Typography
             style={{
-              fontFamily: "Roboto, sans-serif",
+              fontFamily: "Lora, serif",
               fontWeight: "100px",
               alignItems: "left",
               textAlign: "left",
-              marginTop: "10px",
+              marginTop: "5px",
               color: "#FFFFFF",
               padding: "0 0 0 10px",
             }}
@@ -458,7 +456,7 @@ export default () => {
               marginTop: "-90px", //I need to come back to this. I feel there is a better way to align these items
               marginLeft: "700px",
               color: "#FFFFFF",
-              padding: "10px",
+              padding: "30px 0 10px 0",
               verticalAlign: "top",
             }}
             variant="h6"
@@ -467,13 +465,13 @@ export default () => {
           </Typography>
           <Typography
             style={{
-              fontFamily: "Roboto, sans-serif",
+              fontFamily: "Lora, serif",
               fontWeight: "100px",
               alignItems: "right",
               textAlign: "right",
               marginTop: "5px",
               color: "#FFFFFF",
-              padding: "10px",
+              padding: "0 0 0 0",
               marginLeft: "700px",
             }}
             variant="body"
@@ -489,7 +487,7 @@ export default () => {
               textAlign: "left",
               marginTop: "10px",
               color: "#FFFFFF",
-              padding: "20px",
+              padding: "10px 10px 10px 10px",
             }}
             variant="h6"
           >
@@ -497,13 +495,13 @@ export default () => {
           </Typography>
           <Typography
             style={{
-              fontFamily: "Roboto, sans-serif",
+              fontFamily: "Lora, serif",
               fontWeight: "100px",
               alignItems: "left",
               textAlign: "left",
               marginTop: "10px",
               color: "#FFFFFF",
-              padding: "20px",
+              padding: "10px 30px 30px 10px",
             }}
             variant="body"
           >
@@ -513,7 +511,7 @@ export default () => {
             style={{
               opacity: "1",
               position: "absolute",
-              top: "700px",
+              top: "640px",
               width: "auto",
               minWidth: "8vw",
               height: "15vh",
@@ -522,6 +520,143 @@ export default () => {
             src="https://avpn.asia/wp-content/uploads/2014/11/mitsubishi.jpg"
             alt="Mitsubishi Corporation"
           />
+        </Box>
+        <Box>
+          <Typography
+            style={{
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: "100px",
+              alignItems: "left",
+              textAlign: "left",
+              marginTop: "20px",
+              color: "#FFFFFF",
+              padding: "0px 0px 10px 10px",
+            }}
+            variant="h6"
+          >
+            Toolkit
+          </Typography>
+          <Typography
+            style={{
+              fontFamily: "Lora, serif",
+              fontWeight: "100px",
+              alignItems: "left",
+              textAlign: "left",
+              marginTop: "20px",
+              color: "#FFFFFF",
+              padding: "0px 0px 10px 40px",
+            }}
+            variant="h6"
+          >
+            Technical
+          </Typography>
+          <Typography
+            style={{
+              fontFamily: "Lora, serif",
+              fontWeight: "100px",
+              alignItems: "left",
+              textAlign: "left",
+              marginTop: "5px",
+              color: "#FFFFFF",
+              padding: "0 0 0 40px",
+            }}
+            variant="body"
+          >
+            ArcGIS, HTML, CSS, SQL, STATA, R, Python
+          </Typography>
+          <Typography
+            style={{
+              fontFamily: "Lora, serif",
+              fontWeight: "100px",
+              alignItems: "Left",
+              textAlign: "Left",
+              marginTop: "-90px", //I need to come back to this. I feel there is a better way to align these items
+              marginLeft: "700px",
+              color: "#FFFFFF",
+              padding: "30px 0 10px 0",
+              verticalAlign: "top",
+            }}
+            variant="h6"
+          >
+            Design
+          </Typography>
+          <Typography
+            style={{
+              fontFamily: "Lora, serif",
+              fontWeight: "100px",
+              alignItems: "right",
+              textAlign: "right",
+              marginTop: "5px",
+              color: "#FFFFFF",
+              padding: "0 0 0 0",
+              marginLeft: "700px",
+            }}
+            variant="body"
+          >
+            Figma, Illustrator, Photoshop, Premier, Invision, InDesign, XD
+          </Typography>
+        </Box>
+        <Box>
+          <Typography
+            style={{
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: "100px",
+              alignItems: "left",
+              textAlign: "left",
+              marginTop: "20px",
+              color: "#FFFFFF",
+              padding: "0px 0px 10px 10px",
+            }}
+            variant="h6"
+          >
+            Education
+          </Typography>
+          <Typography
+            style={{
+              fontFamily: "Lora, serif",
+              fontWeight: "100px",
+              alignItems: "left",
+              textAlign: "left",
+              marginTop: "5px",
+              color: "#FFFFFF",
+              padding: "0 0 0 40px",
+            }}
+            variant="body"
+          >
+            Carnegie Mellon University 2020-2022- Master’s in Public Policy and
+            Management (MSPPM)
+          </Typography>
+          <Typography
+            style={{
+              fontFamily: "Lora, serif",
+              fontWeight: "100px",
+              alignItems: "left",
+              textAlign: "left",
+              marginTop: "20px",
+              color: "#FFFFFF",
+              padding: "0px 0px 10px 40px",
+            }}
+            variant="body"
+          >
+            Lahore University of Management Sciences 2014-2018- BSc (Honors)
+            Economics
+          </Typography>
+        </Box>
+        <Box>
+          <Typography
+            style={{
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: "100px",
+              alignItems: "left",
+              textAlign: "left",
+              marginTop: "20px",
+              color: "#FFFFFF",
+              padding: "0px 0px 10px 10px",
+            }}
+            variant="h6"
+          >
+            What they say about me
+          </Typography>
         </Box>
         <Box
           style={{
