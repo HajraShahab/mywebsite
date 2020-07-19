@@ -626,6 +626,19 @@ export default () => {
             Carnegie Mellon University 2020-2022- Master’s in Public Policy and
             Management (MSPPM)
           </Typography>
+          <img
+            style={{
+              opacity: "1",
+              position: "absolute",
+              top: "850px",
+              width: "auto",
+              minWidth: "8vw",
+              height: "15vh",
+              marginLeft: "0px",
+            }}
+            src="https://www.cmu.edu/brand/brand-guidelines/images/wordmarksquare-red-600x600.png"
+            alt="Carnegie Mellon University"
+          />
           <Typography
             style={{
               fontFamily: "Lora, serif",
@@ -656,6 +669,46 @@ export default () => {
             variant="h6"
           >
             What they say about me
+          </Typography>
+          <Typography
+            style={{
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: "600px",
+              alignItems: "left",
+              textAlign: "left",
+              marginTop: "20px",
+              color: "#FFFFFF",
+              padding: "0px 0px 0px 10px",
+            }}
+            variant="h1"
+          >
+            "
+          </Typography>
+          <Typography
+            style={{
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: "600px",
+              alignItems: "left",
+              textAlign: "left",
+              marginTop: "20px",
+              color: "#FFFFFF",
+              padding: "0px 0px 0px 10px",
+            }}
+            variant="h1"
+          >
+            "
+          </Typography>
+        </Box>
+        <Box>
+          <Typography
+            style={{
+              height: "50px",
+              width: "50px",
+              backgroundColor: "#121212",
+            }}
+            variant="h1"
+          >
+            Reading
           </Typography>
         </Box>
         <Box
