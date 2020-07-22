@@ -183,64 +183,87 @@ export default () => {
         <Typography
           style={{
             fontFamily: "Roboto, sans-serif",
-            fontWeight: "fontWeightLight",
-            fontSize: "50px",
-            textAlign: "center",
+            fontWeight: "200px",
+            fontSize: "80px",
+            fontStyle: "normal",
             marginTop: "40px",
             color: "#FFFFFF",
+            position: "absolute",
+            width: "415px",
+            height: "94px",
+            lineHeight: "92px",
+            left: "487px",
+            top: "175px",
+            letterSpacing: "-2px",
           }}
-          variant="h4"
         >
           Meet Hajra!
         </Typography>
         <Box
           style={{
             background: "rgb(51, 51, 51)",
-            padding: "10px",
-            marginTop: "20px",
+            position: "absolute",
+            width: "1146px",
+            height: "478px",
+            left: "121px",
+            top: "329px",
           }}
         >
           <Typography
             style={{
               fontFamily: "Roboto, sans-serif",
-              fontWeight: "100px",
+              fontWeight: "bold",
               alignItems: "left",
               textAlign: "left",
               marginTop: "10px",
+              fontSize: "40px",
+              width: "105px",
+              height: "24.96px",
               color: "#FFFFFF",
               padding: "0px 0px 10px 10px",
+              position: "absolute",
+              lineHeight: "47px",
+              letterSpacing: "0.06em",
             }}
-            variant="h6"
           >
             ROLE
           </Typography>
           <Typography
             style={{
               fontFamily: "Lora, serif",
-              fontWeight: "100px",
-              alignItems: "left",
-              textAlign: "left",
-              marginTop: "5px",
+              fontWeight: "normal",
+              fontStyle: "normal",
+              fontSize: "31px",
+              lineHeight: "40px",
+              letterSpacing: "0.06em",
+              width: "428px",
+              height: "19px",
               color: "#FFFFFF",
+              position: "absolute",
               padding: "0 0 0 10px",
+              left: "211px",
+              top: "441px",
             }}
-            variant="body"
           >
             Women in Transportation Fellow
           </Typography>
           <Typography
             style={{
+              position: "absolute",
+              width: "121px",
+              height: "24.96px",
+              left: "759px",
+              top: "376.8px",
               fontFamily: "Roboto, sans-serif",
-              fontWeight: "100px",
-              alignItems: "Left",
-              textAlign: "Left",
-              marginTop: "-90px", //I need to come back to this. I feel there is a better way to align these items
-              marginLeft: "700px",
+              fontWeight: "bold",
+              fontStyle: "normal",
+              fontSize: "40px",
+              lineHeight: "47px",
+              letterSpacing: "0.06em",
               color: "#FFFFFF",
               padding: "30px 0 10px 0",
               verticalAlign: "top",
             }}
-            variant="h6"
           >
             WORK
           </Typography>
@@ -305,417 +328,14 @@ export default () => {
         </Box>
         <Box
           style={{
-            background: "rgb(51, 51, 51)",
-            padding: "10px",
-            marginTop: "20px",
-          }}
-        >
-          <Typography
-            style={{
-              fontFamily: "Roboto, sans-serif",
-              fontWeight: "100px",
-              alignItems: "left",
-              textAlign: "left",
-              marginTop: "10px",
-              color: "#FFFFFF",
-              padding: "0px 0px 10px 10px",
-            }}
-            variant="h6"
-          >
-            ROLE
-          </Typography>
-          <Typography
-            style={{
-              fontFamily: "Lora, serif",
-              fontWeight: "100px",
-              alignItems: "left",
-              textAlign: "left",
-              marginTop: "5px",
-              color: "#FFFFFF",
-              padding: "0 0 0 10px",
-            }}
-            variant="body"
-          >
-            Project Manager
-          </Typography>
-          <Typography
-            style={{
-              fontFamily: "Roboto, sans-serif",
-              fontWeight: "100px",
-              alignItems: "Left",
-              textAlign: "Left",
-              marginTop: "-90px", //I need to come back to this. I feel there is a better way to align these items
-              marginLeft: "700px",
-              color: "#FFFFFF",
-              padding: "30px 0 10px 0",
-              verticalAlign: "top",
-            }}
-            variant="h6"
-          >
-            WORK
-          </Typography>
-          <Typography
-            style={{
-              fontFamily: "Lora, serif",
-              fontWeight: "100px",
-              alignItems: "right",
-              textAlign: "right",
-              marginTop: "5px",
-              color: "#FFFFFF",
-              padding: "0 0 0 0",
-              marginLeft: "700px",
-            }}
-            variant="body"
-          >
-            Its hands were holograms that altered to match the convolutions of
-            the Flatline as a construct.
-          </Typography>
-          <Typography
-            style={{
-              fontFamily: "Roboto, sans-serif",
-              fontWeight: "100px",
-              alignItems: "left",
-              textAlign: "left",
-              marginTop: "10px",
-              color: "#FFFFFF",
-              padding: "10px 10px 10px 10px",
-            }}
-            variant="h6"
-          >
-            DATE
-          </Typography>
-          <Typography
-            style={{
-              fontFamily: "Lora, serif",
-              fontWeight: "100px",
-              alignItems: "left",
-              textAlign: "left",
-              marginTop: "10px",
-              color: "#FFFFFF",
-              padding: "10px 30px 30px 10px",
-            }}
-            variant="body"
-          >
-            2019-2020
-          </Typography>
-          <img
-            style={{
-              opacity: "1",
-              position: "absolute",
-              top: "450px",
-              width: "auto",
-              minWidth: "5vw",
-              height: "10vh",
-              marginLeft: "800px",
-            }}
-            src="https://sbasse.lums.edu.pk/sites/default/files/styles/medium/public/cs3.png?itok=whPxCULM"
-            alt="TPI"
-          />
-        </Box>
-        <Box
-          style={{
-            background: "rgb(51, 51, 51)",
-            padding: "10px",
-            marginTop: "20px",
-          }}
-        >
-          <Typography
-            style={{
-              fontFamily: "Roboto, sans-serif",
-              fontWeight: "100px",
-              alignItems: "left",
-              textAlign: "left",
-              marginTop: "10px",
-              color: "#FFFFFF",
-              padding: "0px 0px 10px 10px",
-            }}
-            variant="h6"
-          >
-            ROLE
-          </Typography>
-          <Typography
-            style={{
-              fontFamily: "Lora, serif",
-              fontWeight: "100px",
-              alignItems: "left",
-              textAlign: "left",
-              marginTop: "5px",
-              color: "#FFFFFF",
-              padding: "0 0 0 10px",
-            }}
-            variant="body"
-          >
-            Management Trainee
-          </Typography>
-          <Typography
-            style={{
-              fontFamily: "Roboto, sans-serif",
-              fontWeight: "100px",
-              alignItems: "Left",
-              textAlign: "Left",
-              marginTop: "-90px", //I need to come back to this. I feel there is a better way to align these items
-              marginLeft: "700px",
-              color: "#FFFFFF",
-              padding: "30px 0 10px 0",
-              verticalAlign: "top",
-            }}
-            variant="h6"
-          >
-            WORK
-          </Typography>
-          <Typography
-            style={{
-              fontFamily: "Lora, serif",
-              fontWeight: "100px",
-              alignItems: "right",
-              textAlign: "right",
-              marginTop: "5px",
-              color: "#FFFFFF",
-              padding: "0 0 0 0",
-              marginLeft: "700px",
-            }}
-            variant="body"
-          >
-            Its hands were holograms that altered to match the convolutions of
-            the Flatline as a construct.
-          </Typography>
-          <Typography
-            style={{
-              fontFamily: "Roboto, sans-serif",
-              fontWeight: "100px",
-              alignItems: "left",
-              textAlign: "left",
-              marginTop: "10px",
-              color: "#FFFFFF",
-              padding: "10px 10px 10px 10px",
-            }}
-            variant="h6"
-          >
-            DATE
-          </Typography>
-          <Typography
-            style={{
-              fontFamily: "Lora, serif",
-              fontWeight: "100px",
-              alignItems: "left",
-              textAlign: "left",
-              marginTop: "10px",
-              color: "#FFFFFF",
-              padding: "10px 30px 30px 10px",
-            }}
-            variant="body"
-          >
-            2018-2019
-          </Typography>
-          <img
-            style={{
-              opacity: "1",
-              position: "absolute",
-              top: "640px",
-              width: "auto",
-              minWidth: "8vw",
-              height: "15vh",
-              marginLeft: "800px",
-            }}
-            src="https://avpn.asia/wp-content/uploads/2014/11/mitsubishi.jpg"
-            alt="Mitsubishi Corporation"
-          />
-        </Box>
-        <Box>
-          <Typography
-            style={{
-              fontFamily: "Roboto, sans-serif",
-              fontWeight: "100px",
-              alignItems: "left",
-              textAlign: "left",
-              marginTop: "20px",
-              color: "#FFFFFF",
-              padding: "0px 0px 10px 10px",
-            }}
-            variant="h6"
-          >
-            Toolkit
-          </Typography>
-          <Typography
-            style={{
-              fontFamily: "Lora, serif",
-              fontWeight: "100px",
-              alignItems: "left",
-              textAlign: "left",
-              marginTop: "20px",
-              color: "#FFFFFF",
-              padding: "0px 0px 10px 40px",
-            }}
-            variant="h6"
-          >
-            Technical
-          </Typography>
-          <Typography
-            style={{
-              fontFamily: "Lora, serif",
-              fontWeight: "100px",
-              alignItems: "left",
-              textAlign: "left",
-              marginTop: "5px",
-              color: "#FFFFFF",
-              padding: "0 0 0 40px",
-            }}
-            variant="body"
-          >
-            ArcGIS, HTML, CSS, SQL, STATA, R, Python
-          </Typography>
-          <Typography
-            style={{
-              fontFamily: "Lora, serif",
-              fontWeight: "100px",
-              alignItems: "Left",
-              textAlign: "Left",
-              marginTop: "-90px", //I need to come back to this. I feel there is a better way to align these items
-              marginLeft: "700px",
-              color: "#FFFFFF",
-              padding: "30px 0 10px 0",
-              verticalAlign: "top",
-            }}
-            variant="h6"
-          >
-            Design
-          </Typography>
-          <Typography
-            style={{
-              fontFamily: "Lora, serif",
-              fontWeight: "100px",
-              alignItems: "right",
-              textAlign: "right",
-              marginTop: "5px",
-              color: "#FFFFFF",
-              padding: "0 0 0 0",
-              marginLeft: "700px",
-            }}
-            variant="body"
-          >
-            Figma, Illustrator, Photoshop, Premier, Invision, InDesign, XD
-          </Typography>
-        </Box>
-        <Box>
-          <Typography
-            style={{
-              fontFamily: "Roboto, sans-serif",
-              fontWeight: "100px",
-              alignItems: "left",
-              textAlign: "left",
-              marginTop: "20px",
-              color: "#FFFFFF",
-              padding: "0px 0px 10px 10px",
-            }}
-            variant="h6"
-          >
-            Education
-          </Typography>
-          <Typography
-            style={{
-              fontFamily: "Lora, serif",
-              fontWeight: "100px",
-              alignItems: "left",
-              textAlign: "left",
-              marginTop: "5px",
-              color: "#FFFFFF",
-              padding: "0 0 0 40px",
-            }}
-            variant="body"
-          >
-            Carnegie Mellon University 2020-2022- Master’s in Public Policy and
-            Management (MSPPM)
-          </Typography>
-          <img
-            style={{
-              opacity: "1",
-              position: "absolute",
-              top: "850px",
-              width: "auto",
-              minWidth: "8vw",
-              height: "15vh",
-              marginLeft: "0px",
-            }}
-            src="https://www.cmu.edu/brand/brand-guidelines/images/wordmarksquare-red-600x600.png"
-            alt="Carnegie Mellon University"
-          />
-          <Typography
-            style={{
-              fontFamily: "Lora, serif",
-              fontWeight: "100px",
-              alignItems: "left",
-              textAlign: "left",
-              marginTop: "20px",
-              color: "#FFFFFF",
-              padding: "0px 0px 10px 40px",
-            }}
-            variant="body"
-          >
-            Lahore University of Management Sciences 2014-2018- BSc (Honors)
-            Economics
-          </Typography>
-        </Box>
-        <Box>
-          <Typography
-            style={{
-              fontFamily: "Roboto, sans-serif",
-              fontWeight: "100px",
-              alignItems: "left",
-              textAlign: "left",
-              marginTop: "20px",
-              color: "#FFFFFF",
-              padding: "0px 0px 10px 10px",
-            }}
-            variant="h6"
-          >
-            What they say about me
-          </Typography>
-          <Typography
-            style={{
-              fontFamily: "Roboto, sans-serif",
-              fontWeight: "600px",
-              alignItems: "left",
-              textAlign: "left",
-              marginTop: "20px",
-              color: "#FFFFFF",
-              padding: "0px 0px 0px 10px",
-            }}
-            variant="h1"
-          >
-            "
-          </Typography>
-          <Typography
-            style={{
-              fontFamily: "Roboto, sans-serif",
-              fontWeight: "600px",
-              alignItems: "left",
-              textAlign: "left",
-              marginTop: "20px",
-              color: "#FFFFFF",
-              padding: "0px 0px 0px 10px",
-            }}
-            variant="h1"
-          >
-            "
-          </Typography>
-        </Box>
-        <Box>
-          <Typography
-            style={{
-              height: "50px",
-              width: "50px",
-              backgroundColor: "#121212",
-            }}
-            variant="h1"
-          >
-            Reading
-          </Typography>
-        </Box>
-        <Box
-          style={{
             background: "#C0C0C0",
             padding: "10",
             marginTop: "20px",
+            position: "absolute",
+            width: "1440px",
+            height: "67px",
+            left: "0px",
+            top: "3559px",
           }}
         >
           <Typography
