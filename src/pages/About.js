@@ -192,8 +192,8 @@ export default () => {
             width: "415px",
             height: "94px",
             lineHeight: "92px",
-            left: "487px",
-            top: "175px",
+            left: "583px",
+            top: "166px",
             letterSpacing: "-2px",
           }}
         >
@@ -203,10 +203,10 @@ export default () => {
           style={{
             background: "rgb(51, 51, 51)",
             position: "absolute",
-            width: "1146px",
-            height: "478px",
-            left: "121px",
-            top: "329px",
+            width: "701px",
+            height: "517px",
+            left: "36px",
+            top: "372px",
           }}
         >
           <Typography
@@ -214,16 +214,15 @@ export default () => {
               fontFamily: "Roboto, sans-serif",
               fontWeight: "bold",
               alignItems: "left",
-              textAlign: "left",
-              marginTop: "10px",
               fontSize: "40px",
-              width: "105px",
-              height: "24.96px",
+              width: "136.09px",
+              height: "76.78px",
+              marginTop: "10px",
               color: "#FFFFFF",
               padding: "0px 0px 10px 10px",
               position: "absolute",
-              lineHeight: "47px",
-              letterSpacing: "0.06em",
+              lineHeight: "60px",
+              letterSpacing: "0.25px",
             }}
           >
             ROLE
@@ -233,16 +232,16 @@ export default () => {
               fontFamily: "Lora, serif",
               fontWeight: "normal",
               fontStyle: "normal",
-              fontSize: "31px",
-              lineHeight: "40px",
-              letterSpacing: "0.06em",
-              width: "428px",
-              height: "19px",
+              fontSize: "20px",
+              lineHeight: "30px",
+              letterSpacing: "0.15px",
+              alignItems: "center",
+              marginTop: "80px",
+              width: "216.37px",
+              height: "30.71px",
               color: "#FFFFFF",
               position: "absolute",
               padding: "0 0 0 10px",
-              left: "211px",
-              top: "441px",
             }}
           >
             Women in Transportation Fellow
@@ -250,19 +249,18 @@ export default () => {
           <Typography
             style={{
               position: "absolute",
-              width: "121px",
-              height: "24.96px",
-              left: "759px",
-              top: "376.8px",
+              width: "243.78px",
+              height: "76.78px",
+              left: "395.97px",
+              marginTop: "10px",
               fontFamily: "Roboto, sans-serif",
               fontWeight: "bold",
               fontStyle: "normal",
               fontSize: "40px",
-              lineHeight: "47px",
-              letterSpacing: "0.06em",
+              lineHeight: "60px",
+              letterSpacing: "0.25px",
               color: "#FFFFFF",
               padding: "30px 0 10px 0",
-              verticalAlign: "top",
             }}
           >
             WORK
@@ -270,30 +268,38 @@ export default () => {
           <Typography
             style={{
               fontFamily: "Lora, serif",
-              fontWeight: "100px",
-              alignItems: "right",
-              textAlign: "right",
-              marginTop: "5px",
+              position: "absolute",
+              fontsize: "20px",
+              height: "31px",
+              left: "395.97px",
+              top: "593px",
+              width: "304.08px",
+              height: "31px",
+              fontWeight: "normal",
+              marginTop: "40px",
               color: "#FFFFFF",
               padding: "0 0 0 0",
-              marginLeft: "700px",
+              display: "flex",
+              letterSpacing: "0.15px",
             }}
-            variant="body"
           >
-            Its hands were holograms that altered to match the convolutions of
-            the Flatline as a construct.
+            Coordinating the Smart Mobility Connections (SMC) seminar series,
           </Typography>
           <Typography
             style={{
               fontFamily: "Roboto, sans-serif",
-              fontWeight: "100px",
-              alignItems: "left",
-              textAlign: "left",
-              marginTop: "10px",
+              position: "absolute",
+              width: "136.09px",
+              height: "76.78",
+              left: "86.91px",
+              top: "750.79px",
+              fontWeight: "bold",
+              fontStyle: "normal",
+              lineHeight: "60px",
+              fontSize: "40px",
               color: "#FFFFFF",
               padding: "10px 10px 10px 10px",
             }}
-            variant="h6"
           >
             DATE
           </Typography>
@@ -325,6 +331,36 @@ export default () => {
             src="https://traffic21.heinz.cmu.edu/wp-content/uploads/sites/23/2019/08/cropped-Traffic-21-Anniversary-top.jpg"
             alt="Traffic21"
           />
+        </Box>
+        <Box
+          style={{
+            background: "rgb(51, 51, 51)",
+            position: "absolute",
+            width: "701px",
+            height: "517px",
+            left: "758px",
+            top: "372px",
+          }}
+        >
+          <Typography
+            style={{
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: "bold",
+              alignItems: "left",
+              textAlign: "left",
+              marginTop: "10px",
+              fontSize: "40px",
+              width: "105px",
+              height: "24.96px",
+              color: "#FFFFFF",
+              padding: "0px 0px 10px 10px",
+              position: "absolute",
+              lineHeight: "47px",
+              letterSpacing: "0.06em",
+            }}
+          >
+            ROLE
+          </Typography>
         </Box>
         <Box
           style={{
