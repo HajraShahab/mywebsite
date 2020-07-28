@@ -203,10 +203,10 @@ export default () => {
           style={{
             background: "rgb(51, 51, 51)",
             position: "absolute",
-            width: "701px",
-            height: "517px",
-            left: "36px",
-            top: "372px",
+            width: "629px",
+            height: "343px",
+            left: "85px",
+            top: "425px",
           }}
         >
           <Typography
@@ -214,15 +214,16 @@ export default () => {
               fontFamily: "Roboto, sans-serif",
               fontWeight: "bold",
               alignItems: "left",
-              fontSize: "40px",
+              fontSize: "16px",
               width: "136.09px",
-              height: "76.78px",
+              height: "24px",
               marginTop: "10px",
               color: "#FFFFFF",
               padding: "0px 0px 10px 10px",
               position: "absolute",
-              lineHeight: "60px",
-              letterSpacing: "0.25px",
+              lineHeight: "24px",
+              letterSpacing: "0.5px",
+              display: "flex",
             }}
           >
             ROLE
@@ -232,16 +233,22 @@ export default () => {
               fontFamily: "Lora, serif",
               fontWeight: "normal",
               fontStyle: "normal",
-              fontSize: "20px",
+              fontSize: "16px",
               lineHeight: "30px",
               letterSpacing: "0.15px",
-              alignItems: "center",
-              marginTop: "80px",
-              width: "216.37px",
-              height: "30.71px",
+              alignContent: "flexStart",
+              top: "597px",
+              width: "216px",
+              height: "48px",
               color: "#FFFFFF",
               position: "absolute",
               padding: "0 0 0 10px",
+              lineHeight: "24px",
+              letterSpacing: "0.15px",
+            }}
+            flexContainer={{
+              display: "'flex",
+              alignContent: "flexStart",
             }}
           >
             Women in Transportation Fellow
