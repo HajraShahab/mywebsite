@@ -352,38 +352,6 @@ export default () => {
           <Typography
             style={{
               fontFamily: "Roboto, sans-serif",
-              fontWeight: "bold",
-              alignItems: "left",
-              textAlign: "left",
-              marginTop: "10px",
-              fontSize: "40px",
-              width: "105px",
-              height: "24.96px",
-              color: "#FFFFFF",
-              padding: "0px 0px 10px 10px",
-              position: "absolute",
-              lineHeight: "47px",
-              letterSpacing: "0.06em",
-            }}
-          >
-            ROLE
-          </Typography>
-        </Box>
-        <Box
-          style={{
-            background: "#C0C0C0",
-            padding: "10",
-            marginTop: "20px",
-            position: "absolute",
-            width: "1440px",
-            height: "67px",
-            left: "0px",
-            top: "3559px",
-          }}
-        >
-          <Typography
-            style={{
-              fontFamily: "Roboto, sans-serif",
               fontWeight: "100px",
               alignItems: "left",
               textAlign: "left",
@@ -411,19 +379,6 @@ export default () => {
           >
             Email: hajrashahab05@gmail.com
           </Typography>
-          <img
-            style={{
-              opacity: "1",
-              position: "absolute",
-              top: "925px",
-              width: "auto",
-              minWidth: "2vw",
-              height: "5vh",
-              marginLeft: "570px",
-            }}
-            src="https://image.flaticon.com/icons/png/512/61/61109.png"
-            alt="Linkedin"
-          />
         </Box>
       </Box>
     </ThemeProvider>
