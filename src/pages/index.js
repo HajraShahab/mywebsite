@@ -1,4 +1,3 @@
-// these are all the library imports on the top
 import React from "react"
 import "./app.css"
 import {
@@ -7,7 +6,9 @@ import {
   createMuiTheme,
   Typography,
   Container,
+  Paper,
 } from "@material-ui/core"
+import { Helmet } from "react-helmet"
 import { ThemeProvider } from "@material-ui/styles"
 import AppBar from "@material-ui/core/AppBar"
 import Toolbar from "@material-ui/core/Toolbar"
@@ -24,8 +25,11 @@ export default () => {
     },
   }
   return (
-    // this is where all the code of the main page goes
     <ThemeProvider theme={createMuiTheme(myTheme)}>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>HShahab</title>
+      </Helmet>
       <img
         style={{
           opacity: "1",
@@ -45,7 +49,7 @@ export default () => {
         style={{ backgroundColor: "transparent" }}
       >
         <Toolbar variant="dense" style={{ backgroundColor: "transparent" }}>
-          <Typography
+          {/* <Typography
             style={{
               href:
                 "https://fonts.googleapis.com/css2?family=Lora&display=swap",
@@ -135,10 +139,17 @@ export default () => {
             variant="h5"
           >
             Contact
-          </Typography>
+          </Typography> */}
         </Toolbar>
       </AppBar>
-      <Box style={{ display: "flex", height: "auto", flex: "1 0 auto" }}>
+      <Paper
+        style={{
+          display: "flex",
+          height: "auto",
+          flex: "1 0 auto",
+          background: "transparent",
+        }}
+      >
         <Container maxWidth="sm">
           <Box
             style={{
@@ -150,18 +161,16 @@ export default () => {
             }}
           >
             <Avatar
-              style={{ width: "250px", height: "250px" }}
+              style={{ width: "240px", height: "240px" }}
               src="https://pbs.twimg.com/profile_images/1268930034330488840/E4l_gP_c_400x400.jpg"
             />
             <Typography
               style={{
                 fontFamily: "Roboto, sans-serif",
-                fontWeight: "fontWeightLight",
-                fontSize: "50px",
-                marginTop: "20px",
-                color: "#FFFFFF",
+                marginTop: "24px",
+                textAlign: "center",
               }}
-              variant="h4"
+              variant="h2"
             >
               Hajra Shahab
             </Typography>
@@ -174,11 +183,16 @@ export default () => {
               alignItems: "center",
               textAlign: "center",
               padding: "10px",
-              color: "#FFFFFF",
               background: "rgb(60, 60, 60, 0.4)",
             }}
           >
-            <Typography variant="body">
+            <Typography
+              variant="body1"
+              gutterBottom
+              style={{
+                fontSize: "18px",
+              }}
+            >
               Hi, I’m Hajra Shahab, a multidisciplinary researcher with profound
               interest in data analytics, urban informatics policy, and design.
               I am a strong advocate of interdiscplinary collaborative approach
@@ -188,22 +202,17 @@ export default () => {
 
             <Typography
               style={{
-                href:
-                  "https://fonts.googleapis.com/css2?family=Lora&display=swap",
-                rel: "stylesheet",
-                fontFamily: "Lora, serif",
-                fontWeight: "400px",
                 textAlign: "center",
                 marginTop: "20px",
-                color: "#FFFFFF",
+                fontSize: "18px",
               }}
-              variant="h6"
+              variant="body1"
             >
               Karachi | Lahore | Tokyo | Pittsburgh
             </Typography>
           </Box>
         </Container>
-      </Box>
+      </Paper>
     </ThemeProvider>
   )
 }
