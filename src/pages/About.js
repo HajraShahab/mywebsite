@@ -237,6 +237,7 @@ export default () => {
               lineHeight: "30px",
               letterSpacing: "0.15px",
               alignContent: "flexStart",
+              marginTop: "10px",
               top: "597px",
               width: "216px",
               height: "48px",
@@ -247,8 +248,9 @@ export default () => {
               letterSpacing: "0.15px",
             }}
             flexContainer={{
-              display: "'flex",
-              alignContent: "flexStart",
+              display: "inline-flex",
+              alignContent: "flex-start",
+              order: "1",
             }}
           >
             Women in Transportation Fellow
