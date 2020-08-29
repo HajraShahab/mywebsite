@@ -1,5 +1,4 @@
 import React from "react"
-import "./app.css"
 import {
   Box,
   Avatar,
@@ -8,6 +7,9 @@ import {
   Container,
   Paper,
 } from "@material-ui/core"
+import "./app.css"
+import ProjectTile from "./ProjectTile.js"
+
 import { Helmet } from "react-helmet"
 import { ThemeProvider } from "@material-ui/styles"
 import AppBar from "@material-ui/core/AppBar"
@@ -211,6 +213,10 @@ export default () => {
               Karachi | Lahore | Tokyo | Pittsburgh
             </Typography>
           </Box>
+          <ProjectTile
+            title="How tranportation systems evolved in Pakistan"
+            // bodyText="This is the body Text Value"
+          />
         </Container>
       </Paper>
     </ThemeProvider>
