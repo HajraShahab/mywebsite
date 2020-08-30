@@ -163,13 +163,24 @@ export default () => {
             }}
           >
             <Avatar
-              style={{ width: "240px", height: "240px" }}
-              src="https://pbs.twimg.com/profile_images/1268930034330488840/E4l_gP_c_400x400.jpg"
+              style={{
+                width: "200px",
+                height: "200px",
+              }}
+              src="https://mobility21.cmu.edu/wp-content/uploads/2020/04/2020-2022-Women-in-Transportation-Fello-Hajra-Shahab-768x576.jpg"
             />
             <Typography
               style={{
                 fontFamily: "Roboto, sans-serif",
                 marginTop: "24px",
+                textAlign: "center",
+                width: "301px",
+                height: "62px",
+                fontFamily: "Roboto",
+                fontStyle: "normal",
+                fontWeight: "bold",
+                fontSize: "50px",
+                lineHeight: "61px",
                 textAlign: "center",
               }}
               variant="h2"
@@ -180,8 +191,14 @@ export default () => {
 
           <Box
             style={{
-              fontFamily: "Lora, serif",
-              fontWeight: "100px",
+              position: "absolute",
+              width: "964px",
+              height: "224px",
+              left: "238px",
+              top: "466px",
+
+              background: "#333333",
+              opacity: "0.8",
               alignItems: "center",
               textAlign: "center",
               padding: "10px",
@@ -192,14 +209,26 @@ export default () => {
               variant="body1"
               gutterBottom
               style={{
-                fontSize: "18px",
+                position: "absolute",
+                width: "875px",
+                height: "90px",
+
+                fontFamily: "Roboto",
+                fontStyle: "normal",
+                fontWeight: "normal",
+                fontSize: "20px",
+                lineHeight: "30px",
+
+                display: "flex",
+                alignItems: "center",
+                letterSpacing: "0.15px",
+                color: "#FFFFFF",
               }}
             >
-              Hi, I’m Hajra Shahab, a multidisciplinary researcher with profound
-              interest in data analytics, urban informatics policy, and design.
-              I am a strong advocate of interdiscplinary collaborative approach
-              to unlock unconventional solutions to some of the most pressing
-              urban issues that cities face in the 21st century.
+              Hi, I am a multidisciplinary researcher currently pursuing a
+              Master of Science in Public Policy and Management (MSPPM) at
+              Carnegie Mellon University- Heinz College of Information Systems
+              and Public Policy with a specialization in Smart Communities.
             </Typography>
 
             <Typography
@@ -207,14 +236,29 @@ export default () => {
                 textAlign: "center",
                 marginTop: "20px",
                 fontSize: "18px",
+
+                position: "absolute",
+                width: "699px",
+                height: "20px",
+                fontFamily: "Roboto",
+                fontStyle: "normal",
+                fontWeight: "bold",
+                fontSize: "12px",
+                lineHeight: "20px",
+                display: "flex",
+                alignItems: "center",
+                textAlign: "center",
+                letterSpacing: "4.5px",
+                textTransform: "uppercase",
+                color: "#FFB300",
               }}
               variant="body1"
             >
-              Karachi | Lahore | Tokyo | Pittsburgh
+              CITIES | TECH | DESIGN | DATA-DRIVEN POLICYMAKING
             </Typography>
           </Box>
           <ProjectTile
-            title="How tranportation systems evolved in Pakistan"
+            title="How transportation systems have evolved in Pakistan"
             // bodyText="This is the body Text Value"
           />
         </Container>
