@@ -18,6 +18,7 @@ import Button from "@material-ui/core/Button"
 const useStyles = makeStyles({
   root: {
     maxWidth: 2000,
+    marginTop: "40px",
   },
   media: {
     height: "500px",
@@ -25,47 +26,46 @@ const useStyles = makeStyles({
   },
 })
 
-export default ({
-  title,
-  // bodyText,
-}) => {
+export default ({ title, bodyText, link, src, comingSoon }) => {
   const classes = useStyles()
+
+  let buttonColor
+  let buttonText
+
+  if (comingSoon) {
+    buttonColor = "secondary"
+    buttonText = "Coming Soon"
+  } else {
+    buttonColor = "primary"
+    buttonText = "Read More"
+  }
+
   return (
     <Card className={classes.root}>
-      <CardActionArea
+      <Box
         style={{
           display: "flex",
           flexDirection: "row",
+          height: "300px",
         }}
       >
         <CardMedia
           style={{
             position: "static",
-            width: "1000px",
-            height: "300px",
+            width: "50%",
+            height: "100%",
           }}
           image="https://pbs.twimg.com/profile_images/1268930034330488840/E4l_gP_c_400x400.jpg"
         />
-        <CardContent>
-          <Typography
-            gutterBottom
-            variant="h5"
-            component="h2"
-            style={{
-              position: "static",
-              width: "400px",
-              height: "96px",
-              left: "762px",
-              top: "1043px",
-              fontFamily: "Roboto",
-              fontStyle: "normal",
-              fontWeight: "bold",
-              fontSize: "32px",
-              lineHeight: "48px",
-              letterSpacing: "0.25px",
-              color: "#FFFFFF",
-            }}
-          >
+        <CardContent
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            height: "auto",
+            padding: "40px",
+          }}
+        >
+          <Typography gutterBottom variant="h5">
             {title}
           </Typography>
           <Typography
@@ -73,50 +73,33 @@ export default ({
             color="textSecondary"
             component="p"
             style={{
-              width: "329px",
-              height: "77px",
-              left: "762px",
-              top: "1156px",
-
               fontFamily: "Roboto",
               fontStyle: "normal",
               fontWeight: "normal",
-              fontSize: "16px",
+              fontSize: "14px",
               lineHeight: "24px",
               letterSpacing: "0.15px",
               color: "#FFFFFF",
             }}
           >
-            This is a placeholder for the body prop of Project Tile
+            {bodyText}
           </Typography>
+          <a
+            href={link}
+            style={{ marginLeft: "auto", marginTop: "auto" }}
+            target="_blank"
+          >
+            <Button
+              size="medium"
+              color={buttonColor}
+              variant="contained"
+              disabled={comingSoon}
+            >
+              {buttonText}
+            </Button>
+          </a>
         </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button
-          size="small"
-          color="primary"
-          variant="contained"
-          style={{
-            position: "static",
-            width: "177.42px",
-            height: "56px",
-            left: "985px",
-            borderRadius: "4px",
-
-            fontFamily: "Roboto",
-            fontStyle: "normal",
-            fontWeight: "bold",
-            fontSize: "16px",
-            lineHeight: "24px",
-            display: "flex",
-            alignItems: "center",
-            textAlign: "center",
-            letterSpacing: "0.5px",
-          }}
-        >
-          Read More
-        </Button>
-      </CardActions>
+      </Box>
     </Card>
   )
 }

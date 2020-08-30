@@ -25,6 +25,7 @@ export default () => {
       },
     },
   }
+
   return (
     <ThemeProvider theme={createMuiTheme(myTheme)}>
       <Helmet>
@@ -263,10 +264,27 @@ export default () => {
           marginTop: "40px",
         }}
       >
-        <Container maxWidth="sm">
+        <Container maxWidth="md">
+          <Typography
+            variant="h5"
+            style={{
+              color: "#FFB300",
+              textAlign: "center",
+            }}
+          >
+            Projects
+          </Typography>
           <ProjectTile
             title="How transportation systems have evolved in Pakistan"
-            // bodyText="This is the body Text Value"
+            bodyText="It was chambered for .22 long rifle, and Case would’ve preferred lead azide explosives to the Tank War "
+            link="https://www.linkedin.com/in/hajrashahab/"
+            // src='' // src for image
+          />
+          <ProjectTile
+            title="How transportation systems have evolved in Pakistan"
+            bodyText="It was chambered for .22 long rifle, and Case would’ve preferred lead azide explosives to the Tank War "
+            // src='' // src for image
+            comingSoon={true}
           />
         </Container>
       </Paper>
@@ -284,40 +302,49 @@ export default () => {
           borderRadius: 0,
         }}
       >
-        <Container maxWidth="sm">
-          <a // The <a> tag defines a hyperlink, which is used to link from one page to another. The most important attribute of the <a> element is the href attribute, which indicates the link's destination. By default, links will appear as follows in all browsers: An unvisited link is underlined and blue.
-            target="__blank" // this tells the browser to open this link in a new tab
-            href="https://www.linkedin.com/in/hajrashahab/" //  The href attribute specifies the URL of the page the link goes to. Tip: You can use href="#top" or href="#" to link to the top of the current page
+        <Container maxWidth="xs" style={{ width: "100%" }}>
+          <Box
+            style={{
+              display: "flex",
+              justifyContent: "space-evenly",
+            }}
           >
-            <img // standard img tag in HTML (this is used internally by Avatar in material ui)
-              src="LinkedInLogo.svg"
-              style={{ width: "50px", height: "50px" }}
-            />
-          </a>
-        </Container>
-        <Container maxWidth="sm">
-          <a target="__blank" href="https://twitter.com/HajraShahab">
-            <img
-              src="https://seeklogo.net/wp-content/uploads/2015/09/twitter-icon-circle-logo-400x400.png"
-              style={{ width: "50px", height: "50px" }}
-            />
-          </a>
-        </Container>
-        <Container maxWidth="sm">
-          <a target="__blank" href="https://github.com/HajraShahab">
-            <img
-              src="https://image.flaticon.com/icons/svg/25/25231.svg"
-              style={{ width: "50px", height: "50px" }}
-            />
-          </a>
-        </Container>
-        <Container maxWidth="sm">
-          <a target="__blank" href="https://medium.com/@hajrashahab">
-            <img
-              src="https://icon-library.com/images/medium-icon-png/medium-icon-png-0.jpg"
-              style={{ width: "50px", height: "50px" }}
-            />
-          </a>
+            <a // The <a> tag defines a hyperlink, which is used to link from one page to another. The most important attribute of the <a> element is the href attribute, which indicates the link's destination. By default, links will appear as follows in all browsers: An unvisited link is underlined and blue.
+              target="__blank" // this tells the browser to open this link in a new tab
+              href="https://www.linkedin.com/in/hajrashahab/" //  The href attribute specifies the URL of the page the link goes to. Tip: You can use href="#top" or href="#" to link to the top of the current page
+            >
+              <img // standard img tag in HTML (this is used internally by Avatar in material ui)
+                src="LinkedInLogo.svg"
+                style={{ width: "40px", height: "40px" }}
+              />
+            </a>
+
+            <a target="__blank" href="mailto:hajrashahab05@gmail.com">
+              <img
+                src="EmailLogo2.svg"
+                style={{ width: "40px", height: "40px" }}
+              />
+            </a>
+
+            <a target="__blank" href="https://twitter.com/HajraShahab">
+              <img
+                src="twitterLogo.svg"
+                style={{ width: "40px", height: "40px" }}
+              />
+            </a>
+            <a target="__blank" href="https://github.com/HajraShahab">
+              <img
+                src="githubLogo.svg"
+                style={{ width: "40px", height: "40px" }}
+              />
+            </a>
+            <a target="__blank" href="https://medium.com/@hajrashahab">
+              <img
+                src="MediumLogo.svg"
+                style={{ width: "40px", height: "40px" }}
+              />
+            </a>
+          </Box>
         </Container>
       </Paper>
     </ThemeProvider>
