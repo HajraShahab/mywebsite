@@ -9,7 +9,6 @@ import {
 } from "@material-ui/core"
 import "./app.css"
 import ProjectTile from "./ProjectTile.js"
-
 import { Helmet } from "react-helmet"
 import { ThemeProvider } from "@material-ui/styles"
 import AppBar from "@material-ui/core/AppBar"
@@ -19,10 +18,10 @@ export default () => {
     palette: {
       type: "dark",
       primary: {
-        main: "#343434", // update color
+        main: "#FFB300", // update color
       },
       secondary: {
-        main: "#4F8CB3",
+        main: "#343434",
       },
     },
   }
@@ -145,6 +144,7 @@ export default () => {
         </Toolbar>
       </AppBar>
       <Paper
+        elevation={0}
         style={{
           display: "flex",
           height: "auto",
@@ -257,10 +257,52 @@ export default () => {
               CITIES | TECH | DESIGN | DATA-DRIVEN POLICYMAKING
             </Typography>
           </Box>
+        </Container>
+      </Paper>
+
+      {/* Project Tile section, this wil become bigger as we add project Tiles */}
+      <Paper
+        elevation={0}
+        style={{
+          display: "flex",
+          height: "auto",
+          flex: "1 0 auto",
+          background: "#171717",
+          paddingTop: "40px",
+          paddingBottom: "40px",
+          borderRadius: 0,
+        }}
+      >
+        <Container maxWidth="sm">
           <ProjectTile
             title="How transportation systems have evolved in Pakistan"
             // bodyText="This is the body Text Value"
           />
+        </Container>
+      </Paper>
+
+      {/* Footer */}
+      <Paper
+        elevation={0}
+        style={{
+          display: "flex",
+          height: "auto",
+          flex: "1 0 auto",
+          background: "rgb(61 61 61)",
+          paddingTop: "20px",
+          paddingBottom: "20px",
+          borderRadius: 0,
+        }}
+      >
+        <Container maxWidth="sm">
+          <a // The <a> tag defines a hyperlink, which is used to link from one page to another. The most important attribute of the <a> element is the href attribute, which indicates the link's destination. By default, links will appear as follows in all browsers: An unvisited link is underlined and blue.
+            target="__blank" // this tells the browser to open this link in a new tab
+            href="https://medium.com" //  The href attribute specifies the URL of the page the link goes to. Tip: You can use href="#top" or href="#" to link to the top of the current page
+          >
+            <img // standard img tag in HTML (this is used internally by Avatar in material ui)
+              src="LinkedInLogo.svg"
+            />
+          </a>
         </Container>
       </Paper>
     </ThemeProvider>
