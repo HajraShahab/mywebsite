@@ -239,7 +239,7 @@ export default () => {
                 fontSize: "18px",
 
                 position: "absolute",
-                width: "699px",
+                maxWidth: "699px",
                 height: "20px",
                 fontFamily: "Roboto",
                 fontStyle: "normal",
@@ -298,10 +298,35 @@ export default () => {
         <Container maxWidth="sm">
           <a // The <a> tag defines a hyperlink, which is used to link from one page to another. The most important attribute of the <a> element is the href attribute, which indicates the link's destination. By default, links will appear as follows in all browsers: An unvisited link is underlined and blue.
             target="__blank" // this tells the browser to open this link in a new tab
-            href="https://medium.com" //  The href attribute specifies the URL of the page the link goes to. Tip: You can use href="#top" or href="#" to link to the top of the current page
+            href="https://www.linkedin.com/in/hajrashahab/" //  The href attribute specifies the URL of the page the link goes to. Tip: You can use href="#top" or href="#" to link to the top of the current page
           >
             <img // standard img tag in HTML (this is used internally by Avatar in material ui)
               src="LinkedInLogo.svg"
+              style={{ width: "50px", height: "50px" }}
+            />
+          </a>
+        </Container>
+        <Container maxWidth="sm">
+          <a target="__blank" href="https://twitter.com/HajraShahab">
+            <img
+              src="https://seeklogo.net/wp-content/uploads/2015/09/twitter-icon-circle-logo-400x400.png"
+              style={{ width: "50px", height: "50px" }}
+            />
+          </a>
+        </Container>
+        <Container maxWidth="sm">
+          <a target="__blank" href="https://github.com/HajraShahab">
+            <img
+              src="https://image.flaticon.com/icons/svg/25/25231.svg"
+              style={{ width: "50px", height: "50px" }}
+            />
+          </a>
+        </Container>
+        <Container maxWidth="sm">
+          <a target="__blank" href="https://medium.com/@hajrashahab">
+            <img
+              src="https://icon-library.com/images/medium-icon-png/medium-icon-png-0.jpg"
+              style={{ width: "50px", height: "50px" }}
             />
           </a>
         </Container>
