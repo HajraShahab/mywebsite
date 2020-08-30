@@ -95,12 +95,12 @@ export default ({
         <Button
           size="small"
           color="primary"
+          variant="contained"
           style={{
             position: "static",
             width: "177.42px",
             height: "56px",
             left: "985px",
-            background: "#FFB300",
             borderRadius: "4px",
 
             fontFamily: "Roboto",
