@@ -191,9 +191,9 @@ export default () => {
 
           <Box
             style={{
-              position: "absolute",
-              width: "964px",
-              height: "224px",
+              position: "static",
+              maxWidth: "1000px",
+              height: "90px",
               left: "238px",
               top: "466px",
 
@@ -201,7 +201,7 @@ export default () => {
               opacity: "0.8",
               alignItems: "center",
               textAlign: "center",
-              padding: "10px",
+              padding: "20px",
               background: "rgb(60, 60, 60, 0.4)",
             }}
           >
@@ -209,15 +209,16 @@ export default () => {
               variant="body1"
               gutterBottom
               style={{
-                position: "absolute",
-                width: "875px",
+                position: "static",
+                maxWidth: "1000px",
                 height: "90px",
+                padding: "20px",
 
                 fontFamily: "Roboto",
                 fontStyle: "normal",
-                fontWeight: "normal",
+                fontWeight: "light",
                 fontSize: "20px",
-                lineHeight: "30px",
+                lineHeight: "25px",
 
                 display: "flex",
                 alignItems: "center",

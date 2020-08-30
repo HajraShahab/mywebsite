@@ -40,6 +40,7 @@ export default ({
       >
         <CardMedia
           style={{
+            position: "static",
             width: "1000px",
             height: "300px",
           }}
@@ -51,6 +52,7 @@ export default ({
             variant="h5"
             component="h2"
             style={{
+              position: "static",
               width: "400px",
               height: "96px",
               left: "762px",
@@ -94,7 +96,7 @@ export default ({
           size="small"
           color="primary"
           style={{
-            position: "absolute",
+            position: "static",
             width: "177.42px",
             height: "56px",
             left: "985px",
