@@ -152,7 +152,7 @@ export default () => {
           background: "transparent",
         }}
       >
-        <Container maxWidth="sm">
+        <Container maxWidth="md">
           <Box
             style={{
               marginTop: "100px",
@@ -174,8 +174,6 @@ export default () => {
                 fontFamily: "Roboto, sans-serif",
                 marginTop: "24px",
                 textAlign: "center",
-                width: "301px",
-                height: "62px",
                 fontFamily: "Roboto",
                 fontStyle: "normal",
                 fontWeight: "bold",
@@ -191,17 +189,13 @@ export default () => {
 
           <Box
             style={{
-              position: "static",
               maxWidth: "1000px",
-              height: "90px",
-              left: "238px",
-              top: "466px",
-
               background: "#333333",
               opacity: "0.8",
+              display: "flex",
+              flexDirection: "column",
               alignItems: "center",
-              textAlign: "center",
-              padding: "20px",
+              padding: "40px",
               background: "rgb(60, 60, 60, 0.4)",
             }}
           >
@@ -209,16 +203,12 @@ export default () => {
               variant="body1"
               gutterBottom
               style={{
-                position: "static",
                 maxWidth: "1000px",
-                height: "90px",
-                padding: "20px",
-
                 fontFamily: "Roboto",
                 fontStyle: "normal",
                 fontWeight: "light",
                 fontSize: "20px",
-                lineHeight: "25px",
+                lineHeight: "26px",
 
                 display: "flex",
                 alignItems: "center",
@@ -237,14 +227,12 @@ export default () => {
                 textAlign: "center",
                 marginTop: "20px",
                 fontSize: "18px",
-
-                position: "absolute",
-                maxWidth: "699px",
-                height: "20px",
+                marginLeft: "auto",
+                marginRight: "auto",
                 fontFamily: "Roboto",
                 fontStyle: "normal",
                 fontWeight: "bold",
-                fontSize: "12px",
+                fontSize: "14px",
                 lineHeight: "20px",
                 display: "flex",
                 alignItems: "center",
@@ -253,7 +241,7 @@ export default () => {
                 textTransform: "uppercase",
                 color: "#FFB300",
               }}
-              variant="body1"
+              variant="overline"
             >
               CITIES | TECH | DESIGN | DATA-DRIVEN POLICYMAKING
             </Typography>
@@ -272,6 +260,7 @@ export default () => {
           paddingTop: "40px",
           paddingBottom: "40px",
           borderRadius: 0,
+          marginTop: "40px",
         }}
       >
         <Container maxWidth="sm">
