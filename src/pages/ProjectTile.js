@@ -26,7 +26,7 @@ const useStyles = makeStyles({
   },
 })
 
-export default ({ title, bodyText, link, src, comingSoon }) => {
+export default ({ title, bodyText, link, imagelink, comingSoon }) => {
   const classes = useStyles()
 
   let buttonColor
@@ -56,7 +56,7 @@ export default ({ title, bodyText, link, src, comingSoon }) => {
             width: "50%",
             height: "100%",
           }}
-          image="https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+          src={imagelink}
         />
       <CardContent
           style={{

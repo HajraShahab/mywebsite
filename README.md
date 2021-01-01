@@ -23,5 +23,5 @@
     For styling use style={{ color: 'red' }} tag // this is actual css
     for css https://www.w3schools.com/
 
-    for Typography use props (properties) `variant` as specefied in material ui docs
+    for Typography use props (properties) `variant` as specified in material ui docs
     

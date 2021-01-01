@@ -172,17 +172,17 @@ export default () => {
                 fontWeight: "light",
                 fontSize: "20px",
                 lineHeight: "26px",
-
                 display: "flex",
                 alignItems: "center",
                 letterSpacing: "0.15px",
                 color: "#FFFFFF",
               }}
             >
-              Hi, I am a multidisciplinary researcher currently pursuing a
+              Hi, I am an aspiring data scientist currently pursuing a
               Master of Science in Public Policy and Management (MSPPM) at
               Carnegie Mellon University- Heinz College of Information Systems
-              and Public Policy with a specialization in Smart Communities.
+              and Public Policy. I have a profound interest in data analytics, 
+              machine learning, urban informatics, and public interest technologies.
             </Typography>
 
             <Typography
@@ -241,12 +241,12 @@ export default () => {
             title="SimpSymps"
             bodyText="A health symptom checker that allows users to self-diagnose health problems, learn about possible treatments, and find nearby hospitals and pharmacies if required."
             link="https://github.com/HajraShahab"
-            image="https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+            imagelink="https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
           />
           <ProjectTile
-            title="How transportation systems have evolved in Pakistan"
-            bodyText="It was chambered for .22 long rifle, and Case would’ve preferred lead azide explosives to the Tank War "
-            // src='' // src for image
+            title="Understanding sex-related differences in income using NLSY97 (National Longitudinal Survey of Youth, 1997 cohort) data set"
+            bodyText="Is there a significant difference in income between men and women? Does the difference vary depending on other factors(e.g., education, marital status, criminal history, drug use, childhood household factors, profession, etc.)"
+            imagelink="https://images.unsplash.com/photo-1520960858461-ac671067213e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1073&q=80"
             comingSoon={true}
           />
         </Container>
@@ -277,7 +277,7 @@ export default () => {
           </Typography>
           <ProjectTile
             title="Karachi’s Urban Planning: An Abysmal State"
-            bodyText="A health symptom checker that allows users to self-diagnose health problems, learn about possible treatments, and find nearby hospitals and pharmacies if required."
+            bodyText="Karachi — the third-largest city in the world with a population of 16 million is on the brink of irreversible urban decay."
             link="https://medium.com/@hajrashahab/about"
             image="https://static.pakwheels.com/2020/06/53b466e674bfd.jpg"
           />
