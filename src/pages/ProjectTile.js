@@ -47,17 +47,18 @@ export default ({ title, bodyText, link, src, comingSoon }) => {
           display: "flex",
           flexDirection: "row",
           height: "300px",
+          background: "#333333",
         }}
       >
-        <CardMedia
+      <CardMedia
           style={{
             position: "static",
             width: "50%",
             height: "100%",
           }}
-          image="https://pbs.twimg.com/profile_images/1268930034330488840/E4l_gP_c_400x400.jpg"
+          image="https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
         />
-        <CardContent
+      <CardContent
           style={{
             display: "flex",
             flexDirection: "column",
@@ -65,7 +66,15 @@ export default ({ title, bodyText, link, src, comingSoon }) => {
             padding: "40px",
           }}
         >
-          <Typography gutterBottom variant="h5">
+          <Typography gutterBottom variant="h5"
+          style={{
+            fontFamily: "Roboto",
+            fontSize: "24px",
+            lineHeight: "24px",
+            letterSpacing: "0.15px",
+            color: "#FFFFFF",
+          }}
+          >
             {title}
           </Typography>
           <Typography

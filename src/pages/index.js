@@ -51,55 +51,16 @@ export default () => {
         style={{ backgroundColor: "transparent" }}
       >
         <Toolbar variant="dense" style={{ backgroundColor: "transparent" }}>
-          {/* <Typography
-            style={{
-              href:
-                "https://fonts.googleapis.com/css2?family=Lora&display=swap",
-              rel: "stylesheet",
-              fontFamily: "Lora, serif",
-              marginRight: "20px",
-              color: "#FFB300",
-            }}
-            variant="h5"
-          >
-            EN
-          </Typography>
           <Typography
             style={{
               href:
                 "https://fonts.googleapis.com/css2?family=Lora&display=swap",
               rel: "stylesheet",
-              fontFamily: "Lora, serif",
-              marginRight: "auto",
+              fontFamily: "Courier New",
               color: "#FFB300",
+              marginLeft: "900px"
             }}
-            variant="h5"
-          >
-            JP
-          </Typography>
-          <Typography
-            style={{
-              href:
-                "https://fonts.googleapis.com/css2?family=Lora&display=swap",
-              rel: "stylesheet",
-              fontFamily: "Lora, serif",
-              marginLeft: "30px",
-              color: "#FFB300",
-            }}
-            variant="h5"
-          >
-            About
-          </Typography>
-          <Typography
-            style={{
-              href:
-                "https://fonts.googleapis.com/css2?family=Lora&display=swap",
-              rel: "stylesheet",
-              fontFamily: "Lora, serif",
-              marginLeft: "30px",
-              color: "#FFB300",
-            }}
-            variant="h5"
+            variant="h6"
           >
             Projects
           </Typography>
@@ -108,11 +69,11 @@ export default () => {
               href:
                 "https://fonts.googleapis.com/css2?family=Lora&display=swap",
               rel: "stylesheet",
-              fontFamily: "Lora, serif",
-              marginLeft: "30px",
+              fontFamily: "Courier New",
               color: "#FFB300",
+              marginLeft: "auto"
             }}
-            variant="h5"
+            variant="h6"
           >
             Blog
           </Typography>
@@ -121,27 +82,27 @@ export default () => {
               href:
                 "https://fonts.googleapis.com/css2?family=Lora&display=swap",
               rel: "stylesheet",
-              fontFamily: "Lora, serif",
-              marginLeft: "30px",
+              fontFamily: "Courier New",
               color: "#FFB300",
+              marginLeft: "auto"
             }}
-            variant="h5"
+            variant="h6"
           >
-            Vlog
+            About
           </Typography>
           <Typography
             style={{
               href:
                 "https://fonts.googleapis.com/css2?family=Lora&display=swap",
               rel: "stylesheet",
-              fontFamily: "Lora, serif",
-              marginLeft: "30px",
+              fontFamily: "Courier New",
               color: "#FFB300",
+              marginLeft: "auto"
             }}
-            variant="h5"
+            variant="h6"
           >
             Contact
-          </Typography> */}
+          </Typography>
         </Toolbar>
       </AppBar>
       <Paper
@@ -175,12 +136,13 @@ export default () => {
                 fontFamily: "Roboto, sans-serif",
                 marginTop: "24px",
                 textAlign: "center",
-                fontFamily: "Roboto",
+                fontFamily: "Courier New",
                 fontStyle: "normal",
-                fontWeight: "bold",
+                fontWeight: "normal",
                 fontSize: "50px",
                 lineHeight: "61px",
                 textAlign: "center",
+                color: "#FFB300",
               }}
               variant="h2"
             >
@@ -230,7 +192,7 @@ export default () => {
                 fontSize: "18px",
                 marginLeft: "auto",
                 marginRight: "auto",
-                fontFamily: "Roboto",
+                fontFamily: "Courier New",
                 fontStyle: "normal",
                 fontWeight: "bold",
                 fontSize: "14px",
@@ -270,15 +232,54 @@ export default () => {
             style={{
               color: "#FFB300",
               textAlign: "center",
+              fontFamily: "Courier New",
             }}
           >
             Projects
           </Typography>
           <ProjectTile
+            title="SimpSymps"
+            bodyText="A health symptom checker that allows users to self-diagnose health problems, learn about possible treatments, and find nearby hospitals and pharmacies if required."
+            link="https://github.com/HajraShahab"
+            image="https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+          />
+          <ProjectTile
             title="How transportation systems have evolved in Pakistan"
             bodyText="It was chambered for .22 long rifle, and Case would’ve preferred lead azide explosives to the Tank War "
-            link="https://www.linkedin.com/in/hajrashahab/"
             // src='' // src for image
+            comingSoon={true}
+          />
+        </Container>
+      </Paper>
+      <Paper
+        elevation={0}
+        style={{
+          display: "flex",
+          height: "auto",
+          flex: "1 0 auto",
+          background: "#171717",
+          paddingTop: "40px",
+          paddingBottom: "40px",
+          borderRadius: 0,
+          marginTop: "40px",
+        }}
+      >
+        <Container maxWidth="md">
+          <Typography
+            variant="h5"
+            style={{
+              color: "#FFB300",
+              textAlign: "center",
+              fontFamily: "Courier New",
+            }}
+          >
+            Blog
+          </Typography>
+          <ProjectTile
+            title="Karachi’s Urban Planning: An Abysmal State"
+            bodyText="A health symptom checker that allows users to self-diagnose health problems, learn about possible treatments, and find nearby hospitals and pharmacies if required."
+            link="https://medium.com/@hajrashahab/about"
+            image="https://static.pakwheels.com/2020/06/53b466e674bfd.jpg"
           />
           <ProjectTile
             title="How transportation systems have evolved in Pakistan"
@@ -296,7 +297,7 @@ export default () => {
           display: "flex",
           height: "auto",
           flex: "1 0 auto",
-          background: "rgb(61 61 61)",
+          background: "#828282",
           paddingTop: "20px",
           paddingBottom: "20px",
           borderRadius: 0,
