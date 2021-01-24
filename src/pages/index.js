@@ -52,59 +52,64 @@ export default () => {
         <meta charSet="utf-8" />
         <title>Hajra Shahab</title>
       </Helmet>
-      <Container>
-        <AppBar
-          position="static"
-          elevation={0}
-          style={{ backgroundColor: "white", marginTop: 80, marginBottom: 100 }}
-        >
-          <Toolbar style={{ backgroundColor: "white", color: "#636363" }}>
-            <Typography variant="h6" mr="auto">
-              Hajra Shahab
-            </Typography>
-            <Typography
-              style={{
-                marginLeft: "auto",
-              }}
-              variant="h6"
-            >
-              Projects
-            </Typography>
-            <Typography
-              style={{
-                marginLeft: 44,
-              }}
-              variant="h6"
-            >
-              Blog
-            </Typography>
-            <Typography
-              style={{
-                marginLeft: "44px",
-              }}
-              variant="h6"
-            >
-              About
-            </Typography>
-            <Typography
-              style={{
-                marginLeft: "44px",
-              }}
-              variant="h6"
-            >
-              Contact
-            </Typography>
-          </Toolbar>
-        </AppBar>
-        <Paper
-          elevation={0}
-          style={{
-            display: "flex",
-            height: "auto",
-            flex: "1 0 auto",
-            background: "transparent",
-          }}
-        >
+      <Paper
+        elevation={0}
+        style={{
+          display: "flex",
+          height: "auto",
+          flex: "1 0 auto",
+          background: "#f8f7f7",
+        }}
+      >
+        <Container>
+          <AppBar
+            position="static"
+            elevation={0}
+            style={{
+              backgroundColor: "#f8f7f7",
+              paddingTop: 80,
+              marginBottom: 100,
+            }}
+          >
+            <Toolbar style={{ color: "#636363" }}>
+              <Typography variant="h6" mr="auto">
+                Hajra Shahab
+              </Typography>
+              <Typography
+                style={{
+                  marginLeft: "auto",
+                }}
+                variant="h6"
+              >
+                Projects
+              </Typography>
+              <Typography
+                style={{
+                  marginLeft: 44,
+                }}
+                variant="h6"
+              >
+                Blog
+              </Typography>
+              <Typography
+                style={{
+                  marginLeft: "44px",
+                }}
+                variant="h6"
+              >
+                About
+              </Typography>
+              <Typography
+                style={{
+                  marginLeft: "44px",
+                }}
+                variant="h6"
+              >
+                Contact
+              </Typography>
+            </Toolbar>
+          </AppBar>
+
           <Typography
             variant="body1"
             gutterBottom
@@ -123,15 +128,38 @@ export default () => {
             I have a profound interest in data analytics, machine learning,
             urban informatics, and public interest technologies.
           </Typography>
-        </Paper>
-        <Button>See Projects</Button>
-      </Container>
+
+          <Button
+            style={{
+              marginLeft: 24,
+              marginBottom: 90,
+            }}
+            startIcon={
+              <svg
+                width="4"
+                height="33"
+                viewBox="0 0 4 33"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.82322 32.1768C1.92086 32.2744 2.07915 32.2744 2.17678 32.1768L3.76777 30.5858C3.8654 30.4882 3.8654 30.3299 3.76777 30.2322C3.67014 30.1346 3.51185 30.1346 3.41421 30.2322L2 31.6464L0.585788 30.2322C0.488157 30.1346 0.329865 30.1346 0.232234 30.2322C0.134603 30.3299 0.134603 30.4882 0.232234 30.5858L1.82322 32.1768ZM1.75 1.09279e-08L1.75 32L2.25 32L2.25 -1.09279e-08L1.75 1.09279e-08Z"
+                  fill="black"
+                />
+              </svg>
+            }
+          >
+            See Projects
+          </Button>
+        </Container>
+      </Paper>
 
       {/* Project Tile section, this wil become bigger as we add project Tiles */}
       <Paper
         elevation={0}
         style={{
           display: "flex",
+          flexDirection: "column",
           height: "auto",
           flex: "1 0 auto",
           paddingTop: "40px",
@@ -140,28 +168,17 @@ export default () => {
           marginTop: "40px",
         }}
       >
-        <Container maxWidth="md">
-          <Typography
-            variant="h5"
-            style={{
-              textAlign: "center",
-            }}
-          >
-            Projects
-          </Typography>
-          <ProjectTile
-            title="SimpSymps"
-            bodyText="A health symptom checker that allows users to self-diagnose health problems, learn about possible treatments, and find nearby hospitals and pharmacies if required."
-            link="https://github.com/HajraShahab"
-            imagelink="https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-          />
-          <ProjectTile
-            title="Understanding sex-related differences in income using NLSY97 (National Longitudinal Survey of Youth, 1997 cohort) data set"
-            bodyText="Is there a significant difference in income between men and women? Does the difference vary depending on other factors(e.g., education, marital status, criminal history, drug use, childhood household factors, profession, etc.)"
-            imagelink="https://images.unsplash.com/photo-1520960858461-ac671067213e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1073&q=80"
-            comingSoon={true}
-          />
-        </Container>
+        <ProjectTile
+          title="SimpSymps"
+          bodyText="A health symptom checker that allows users to self-diagnose health problems, learn about possible treatments, and find nearby hospitals and pharmacies if required."
+          link="https://github.com/HajraShahab"
+          imagelink="https://images.unsplash.com/photo-1540663108393-2067a006e515?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80"
+        />
+        <ProjectTile
+          title="Understanding sex-related differences in income using NLSY97 (National Longitudinal Survey of Youth, 1997 cohort) data set"
+          bodyText="Is there a significant difference in income between men and women? Does the difference vary depending on other factors(e.g., education, marital status, criminal history, drug use, childhood household factors, profession, etc.)"
+          imagelink="https://images.unsplash.com/photo-1596410466756-2ef5ca9f6c81?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80"
+        />
       </Paper>
       <Paper
         elevation={0}
