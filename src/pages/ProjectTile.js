@@ -52,48 +52,49 @@ export default ({ title, bodyText, link, imagelink, comingSoon }) => {
           // height: "300px",
         }}
       >
-        <CardContent
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            height: "auto",
-            padding: "40px",
-          }}
-        >
-          <Typography
-            gutterBottom
-            variant="h5"
+        <Container maxWidth="lg">
+          <CardContent
             style={{
-              fontWeight: "900",
-              fontSize: "60px",
-              lineHeight: "72px",
+              display: "flex",
+              flexDirection: "column",
+              height: "auto",
             }}
           >
-            {title}
-          </Typography>
-          <Typography
-            variant="body2"
-            color="textSecondary"
-            component="p"
-            style={{
-              fontWeight: "400",
-              fontSize: "24px",
-              lineHeight: "36px",
-            }}
-          >
-            {bodyText}
-          </Typography>
-          <a href={link} style={{ marginTop: "24px" }} target="_blank">
-            <Button
-              size="medium"
-              color={buttonColor}
-              variant="outlined"
-              disabled={comingSoon}
+            <Typography
+              gutterBottom
+              variant="h5"
+              style={{
+                fontWeight: "900",
+                fontSize: "60px",
+                lineHeight: "72px",
+              }}
             >
-              {buttonText}
-            </Button>
-          </a>
-        </CardContent>
+              {title}
+            </Typography>
+            <Typography
+              variant="body2"
+              color="textSecondary"
+              component="p"
+              style={{
+                fontWeight: "400",
+                fontSize: "24px",
+                lineHeight: "36px",
+              }}
+            >
+              {bodyText}
+            </Typography>
+            <a href={link} style={{ marginTop: "24px" }} target="_blank">
+              <Button
+                size="medium"
+                color={buttonColor}
+                variant="outlined"
+                disabled={comingSoon}
+              >
+                {buttonText}
+              </Button>
+            </a>
+          </CardContent>
+        </Container>
         <CardMedia className={classes.media} image={imagelink} />
       </Box>
     </Card>
