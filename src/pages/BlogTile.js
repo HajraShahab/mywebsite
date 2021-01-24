@@ -43,7 +43,7 @@ export default ({ title, bodyText, link, imagelink, comingSoon }) => {
 
   return (
     <Card className={classes.root}>
-      * im a project time
+      * im a project tile
       <Box
         style={{
           display: "flex",
