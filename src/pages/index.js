@@ -6,6 +6,7 @@ import {
   Typography,
   Container,
   Paper,
+  Button,
 } from "@material-ui/core"
 import "./app.css"
 import ProjectTile from "./ProjectTile.js"
@@ -13,217 +14,116 @@ import { Helmet } from "react-helmet"
 import { ThemeProvider } from "@material-ui/styles"
 import AppBar from "@material-ui/core/AppBar"
 import Toolbar from "@material-ui/core/Toolbar"
+
+const Lato = {
+  fontFamily: "Lato",
+  fontStyle: "normal",
+  fontDisplay: "swap",
+  fontWeight: 400,
+  src: `
+    local('Lato'),
+    local('Lato-Regular'),
+    url(./fonts/Lato/Lato-Regular.ttf) format('ttf')
+  `,
+  unicodeRange:
+    "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF",
+}
+console.log(Lato)
+
 export default () => {
-  const myTheme = {
-    palette: {
-      type: "dark",
-      primary: {
-        main: "#636363", // update color
-      },
-      secondary: {
-        main: "#343434",
+  const myTheme = createMuiTheme({
+    typography: {
+      fontFamily: "Lato, serif",
+    },
+    overrides: {
+      MuiCssBaseline: {
+        "@global": {
+          "@font-face": [Lato],
+        },
       },
     },
-  }
+  })
 
   return (
-    <ThemeProvider theme={createMuiTheme(myTheme)}>
+    <ThemeProvider theme={myTheme}>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>HShahab</title>
+        <title>Hajra Shahab</title>
       </Helmet>
-      <img
-        style={{
-          opacity: "1",
-          position: "fixed",
-          top: "0",
-          width: "auto",
-          minWidth: "100vw",
-          height: "140vh",
-          zIndex: "-1",
-        }}
-        src="https://images.unsplash.com/photo-1563861141459-8d525c27a88e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
-        alt="Shibuya Crossing"
-      />
-      <AppBar
-        position="static"
-        elevation={0}
-        style={{ backgroundColor: "transparent" }}
-      >
-        <Toolbar variant="dense" style={{ backgroundColor: "transparent" }}>
-          <Typography
-            style={{
-              href:
-                "https://fonts.googleapis.com/css2?family=Lora&display=swap",
-              rel: "stylesheet",
-              fontFamily: "Lato",
-              color: "#FFB300",
-              marginLeft: "900px",
-            }}
-            variant="h6"
-          >
-            Hajra Shahab
-          </Typography>
-          <Typography
-            style={{
-              href:
-                "https://fonts.googleapis.com/css2?family=Lora&display=swap",
-              rel: "stylesheet",
-              fontFamily: "Lato",
-              color: "#FFB300",
-              marginLeft: "900px",
-            }}
-            variant="h6"
-          >
-            Projects
-          </Typography>
-          <Typography
-            style={{
-              href:
-                "https://fonts.googleapis.com/css2?family=Lora&display=swap",
-              rel: "stylesheet",
-              fontFamily: "Courier New",
-              color: "#FFB300",
-              marginLeft: "auto",
-            }}
-            variant="h6"
-          >
-            Blog
-          </Typography>
-          <Typography
-            style={{
-              href:
-                "https://fonts.googleapis.com/css2?family=Lora&display=swap",
-              rel: "stylesheet",
-              fontFamily: "Courier New",
-              color: "#FFB300",
-              marginLeft: "auto",
-            }}
-            variant="h6"
-          >
-            About
-          </Typography>
-          <Typography
-            style={{
-              href:
-                "https://fonts.googleapis.com/css2?family=Lora&display=swap",
-              rel: "stylesheet",
-              fontFamily: "Courier New",
-              color: "#FFB300",
-              marginLeft: "auto",
-            }}
-            variant="h6"
-          >
-            Contact
-          </Typography>
-        </Toolbar>
-      </AppBar>
-      <Paper
-        elevation={0}
-        style={{
-          display: "flex",
-          height: "auto",
-          flex: "1 0 auto",
-          background: "transparent",
-        }}
-      >
-        <Container maxWidth="md">
-          <Box
-            style={{
-              marginTop: "100px",
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              margin: "32px",
-            }}
-          >
-            <Avatar
-              style={{
-                width: "200px",
-                height: "200px",
-              }}
-              src="https://mobility21.cmu.edu/wp-content/uploads/2020/04/2020-2022-Women-in-Transportation-Fello-Hajra-Shahab-768x576.jpg"
-            />
-            <Typography
-              style={{
-                fontFamily: "Roboto, sans-serif",
-                marginTop: "24px",
-                textAlign: "center",
-                fontFamily: "Courier New",
-                fontStyle: "normal",
-                fontWeight: "normal",
-                fontSize: "50px",
-                lineHeight: "61px",
-                textAlign: "center",
-                color: "#FFB300",
-              }}
-              variant="h2"
-            >
+      <Container>
+        <AppBar
+          position="static"
+          elevation={0}
+          style={{ backgroundColor: "white", marginTop: 80, marginBottom: 100 }}
+        >
+          <Toolbar style={{ backgroundColor: "white", color: "#636363" }}>
+            <Typography variant="h6" mr="auto">
               Hajra Shahab
             </Typography>
-          </Box>
-
-          <Box
+            <Typography
+              style={{
+                marginLeft: "auto",
+              }}
+              variant="h6"
+            >
+              Projects
+            </Typography>
+            <Typography
+              style={{
+                marginLeft: 44,
+              }}
+              variant="h6"
+            >
+              Blog
+            </Typography>
+            <Typography
+              style={{
+                marginLeft: "44px",
+              }}
+              variant="h6"
+            >
+              About
+            </Typography>
+            <Typography
+              style={{
+                marginLeft: "44px",
+              }}
+              variant="h6"
+            >
+              Contact
+            </Typography>
+          </Toolbar>
+        </AppBar>
+        <Paper
+          elevation={0}
+          style={{
+            display: "flex",
+            height: "auto",
+            flex: "1 0 auto",
+            background: "transparent",
+          }}
+        >
+          <Typography
+            variant="body1"
+            gutterBottom
             style={{
               maxWidth: "1000px",
-              background: "#333333",
-              opacity: "0.8",
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              padding: "40px",
-              background: "rgb(60, 60, 60, 0.4)",
+              fontWeight: "400",
+              fontSize: "32px",
+              lineHeight: "51.2px",
+              marginLeft: 24,
+              marginBottom: 300,
             }}
           >
-            <Typography
-              variant="body1"
-              gutterBottom
-              style={{
-                maxWidth: "1000px",
-                fontFamily: "Roboto",
-                fontStyle: "normal",
-                fontWeight: "light",
-                fontSize: "20px",
-                lineHeight: "26px",
-                display: "flex",
-                alignItems: "center",
-                letterSpacing: "0.15px",
-                color: "#FFFFFF",
-              }}
-            >
-              Hi, I am an aspiring data scientist currently pursuing a Master of
-              Science in Public Policy and Management (MSPPM) at Carnegie Mellon
-              University- Heinz College of Information Systems and Public
-              Policy. I have a profound interest in data analytics, machine
-              learning, urban informatics, and public interest technologies.
-            </Typography>
-
-            <Typography
-              style={{
-                textAlign: "center",
-                marginTop: "20px",
-                fontSize: "18px",
-                marginLeft: "auto",
-                marginRight: "auto",
-                fontFamily: "Courier New",
-                fontStyle: "normal",
-                fontWeight: "bold",
-                fontSize: "14px",
-                lineHeight: "20px",
-                display: "flex",
-                alignItems: "center",
-                textAlign: "center",
-                letterSpacing: "4.5px",
-                textTransform: "uppercase",
-                color: "#FFB300",
-              }}
-              variant="overline"
-            >
-              CITIES | TECH | DESIGN | DATA-DRIVEN POLICYMAKING
-            </Typography>
-          </Box>
-        </Container>
-      </Paper>
+            Hi, I am an aspiring data scientist currently pursuing a Master of
+            Science in Public Policy and Management (MSPPM) at Carnegie Mellon
+            University- Heinz College of Information Systems and Public Policy.
+            I have a profound interest in data analytics, machine learning,
+            urban informatics, and public interest technologies.
+          </Typography>
+        </Paper>
+        <Button>See Projects</Button>
+      </Container>
 
       {/* Project Tile section, this wil become bigger as we add project Tiles */}
       <Paper
@@ -243,9 +143,7 @@ export default () => {
           <Typography
             variant="h5"
             style={{
-              color: "#FFB300",
               textAlign: "center",
-              fontFamily: "Courier New",
             }}
           >
             Projects
@@ -281,9 +179,7 @@ export default () => {
           <Typography
             variant="h5"
             style={{
-              color: "#FFB300",
               textAlign: "center",
-              fontFamily: "Courier New",
             }}
           >
             Blog
