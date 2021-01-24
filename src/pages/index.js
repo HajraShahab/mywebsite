@@ -9,7 +9,9 @@ import {
   Button,
 } from "@material-ui/core"
 import "./app.css"
-import ProjectTile from "./ProjectTile.js"
+import ProjectTile from "./ProjectTile"
+import BlogTile from "./blogTile"
+
 import { Helmet } from "react-helmet"
 import { ThemeProvider } from "@material-ui/styles"
 import AppBar from "@material-ui/core/AppBar"
@@ -132,7 +134,6 @@ export default () => {
           display: "flex",
           height: "auto",
           flex: "1 0 auto",
-          background: "#171717",
           paddingTop: "40px",
           paddingBottom: "40px",
           borderRadius: 0,
@@ -168,7 +169,6 @@ export default () => {
           display: "flex",
           height: "auto",
           flex: "1 0 auto",
-          background: "#171717",
           paddingTop: "40px",
           paddingBottom: "40px",
           borderRadius: 0,
@@ -185,13 +185,13 @@ export default () => {
             Blog
           </Typography>
           <Box display="flex">
-            <ProjectTile
+            <BlogTile
               title="Karachi’s Urban Planning: An Abysmal State"
               bodyText="Karachi — the third-largest city in the world with a population of 16 million is on the brink of irreversible urban decay."
               link="https://medium.com/@hajrashahab/about"
               image="https://static.pakwheels.com/2020/06/53b466e674bfd.jpg"
             />
-            <ProjectTile
+            <BlogTile
               title="How transportation systems have evolved in Pakistan"
               bodyText="It was chambered for .22 long rifle, and Case would’ve preferred lead azide explosives to the Tank War "
               // src='' // src for image
@@ -208,7 +208,6 @@ export default () => {
           display: "flex",
           height: "auto",
           flex: "1 0 auto",
-          background: "#828282",
           paddingTop: "20px",
           paddingBottom: "20px",
           borderRadius: 0,
