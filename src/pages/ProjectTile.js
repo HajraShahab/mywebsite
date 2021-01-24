@@ -19,6 +19,7 @@ const useStyles = makeStyles({
   root: {
     maxWidth: 2000,
     marginTop: "40px",
+    margin: 32,
   },
   media: {
     height: "500px",
@@ -45,12 +46,12 @@ export default ({ title, bodyText, link, imagelink, comingSoon }) => {
       <Box
         style={{
           display: "flex",
-          flexDirection: "row",
+          flexDirection: "column",
           height: "300px",
           background: "#333333",
         }}
       >
-      <CardMedia
+        <CardMedia
           style={{
             position: "static",
             width: "50%",
@@ -58,7 +59,7 @@ export default ({ title, bodyText, link, imagelink, comingSoon }) => {
           }}
           src={imagelink}
         />
-      <CardContent
+        <CardContent
           style={{
             display: "flex",
             flexDirection: "column",
@@ -66,14 +67,16 @@ export default ({ title, bodyText, link, imagelink, comingSoon }) => {
             padding: "40px",
           }}
         >
-          <Typography gutterBottom variant="h5"
-          style={{
-            fontFamily: "Roboto",
-            fontSize: "24px",
-            lineHeight: "24px",
-            letterSpacing: "0.15px",
-            color: "#FFFFFF",
-          }}
+          <Typography
+            gutterBottom
+            variant="h5"
+            style={{
+              fontFamily: "Roboto",
+              fontSize: "24px",
+              lineHeight: "24px",
+              letterSpacing: "0.15px",
+              color: "#FFFFFF",
+            }}
           >
             {title}
           </Typography>

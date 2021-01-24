@@ -18,7 +18,7 @@ export default () => {
     palette: {
       type: "dark",
       primary: {
-        main: "#FFB300", // update color
+        main: "#636363", // update color
       },
       secondary: {
         main: "#343434",
@@ -56,9 +56,22 @@ export default () => {
               href:
                 "https://fonts.googleapis.com/css2?family=Lora&display=swap",
               rel: "stylesheet",
-              fontFamily: "Courier New",
+              fontFamily: "Lato",
               color: "#FFB300",
-              marginLeft: "900px"
+              marginLeft: "900px",
+            }}
+            variant="h6"
+          >
+            Hajra Shahab
+          </Typography>
+          <Typography
+            style={{
+              href:
+                "https://fonts.googleapis.com/css2?family=Lora&display=swap",
+              rel: "stylesheet",
+              fontFamily: "Lato",
+              color: "#FFB300",
+              marginLeft: "900px",
             }}
             variant="h6"
           >
@@ -71,7 +84,7 @@ export default () => {
               rel: "stylesheet",
               fontFamily: "Courier New",
               color: "#FFB300",
-              marginLeft: "auto"
+              marginLeft: "auto",
             }}
             variant="h6"
           >
@@ -84,7 +97,7 @@ export default () => {
               rel: "stylesheet",
               fontFamily: "Courier New",
               color: "#FFB300",
-              marginLeft: "auto"
+              marginLeft: "auto",
             }}
             variant="h6"
           >
@@ -97,7 +110,7 @@ export default () => {
               rel: "stylesheet",
               fontFamily: "Courier New",
               color: "#FFB300",
-              marginLeft: "auto"
+              marginLeft: "auto",
             }}
             variant="h6"
           >
@@ -178,11 +191,11 @@ export default () => {
                 color: "#FFFFFF",
               }}
             >
-              Hi, I am an aspiring data scientist currently pursuing a
-              Master of Science in Public Policy and Management (MSPPM) at
-              Carnegie Mellon University- Heinz College of Information Systems
-              and Public Policy. I have a profound interest in data analytics, 
-              machine learning, urban informatics, and public interest technologies.
+              Hi, I am an aspiring data scientist currently pursuing a Master of
+              Science in Public Policy and Management (MSPPM) at Carnegie Mellon
+              University- Heinz College of Information Systems and Public
+              Policy. I have a profound interest in data analytics, machine
+              learning, urban informatics, and public interest technologies.
             </Typography>
 
             <Typography
@@ -264,7 +277,7 @@ export default () => {
           marginTop: "40px",
         }}
       >
-        <Container maxWidth="md">
+        <Container maxWidth="md" display="flex">
           <Typography
             variant="h5"
             style={{
@@ -275,18 +288,20 @@ export default () => {
           >
             Blog
           </Typography>
-          <ProjectTile
-            title="Karachi’s Urban Planning: An Abysmal State"
-            bodyText="Karachi — the third-largest city in the world with a population of 16 million is on the brink of irreversible urban decay."
-            link="https://medium.com/@hajrashahab/about"
-            image="https://static.pakwheels.com/2020/06/53b466e674bfd.jpg"
-          />
-          <ProjectTile
-            title="How transportation systems have evolved in Pakistan"
-            bodyText="It was chambered for .22 long rifle, and Case would’ve preferred lead azide explosives to the Tank War "
-            // src='' // src for image
-            comingSoon={true}
-          />
+          <Box display="flex">
+            <ProjectTile
+              title="Karachi’s Urban Planning: An Abysmal State"
+              bodyText="Karachi — the third-largest city in the world with a population of 16 million is on the brink of irreversible urban decay."
+              link="https://medium.com/@hajrashahab/about"
+              image="https://static.pakwheels.com/2020/06/53b466e674bfd.jpg"
+            />
+            <ProjectTile
+              title="How transportation systems have evolved in Pakistan"
+              bodyText="It was chambered for .22 long rifle, and Case would’ve preferred lead azide explosives to the Tank War "
+              // src='' // src for image
+              comingSoon={true}
+            />
+          </Box>
         </Container>
       </Paper>
 
