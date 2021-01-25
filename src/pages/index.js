@@ -205,7 +205,7 @@ export default () => {
             <BlogTile
               title="Karachi’s Urban Planning: An Abysmal State"
               bodyText="Karachi — the third-largest city in the world with a population of 16 million is on the brink of irreversible urban decay."
-              link="https://medium.com/@hajrashahab/about"
+              link="https://hajrashahab.medium.com/karachis-urban-planning-an-abysmal-state-a3ac908259a1"
               image="https://static.pakwheels.com/2020/06/53b466e674bfd.jpg"
             />
             <BlogTile
