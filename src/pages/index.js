@@ -8,6 +8,7 @@ import {
   Paper,
   Button,
   Link,
+  responsiveFontSizes,
 } from "@material-ui/core"
 import "./app.css"
 import ProjectTile from "./ProjectTile"
@@ -34,19 +35,20 @@ const Lato = {
 console.log(Lato)
 
 export default () => {
-  const myTheme = createMuiTheme({
-    typography: {
-      fontFamily: "Lato, serif",
-    },
-    overrides: {
-      MuiCssBaseline: {
-        "@global": {
-          "@font-face": [Lato],
+  const myTheme = responsiveFontSizes(
+    createMuiTheme({
+      typography: {
+        fontFamily: "Lato, serif",
+      },
+      overrides: {
+        MuiCssBaseline: {
+          "@global": {
+            "@font-face": [Lato],
+          },
         },
       },
-    },
-  })
-
+    })
+  )
   return (
     <ThemeProvider theme={myTheme}>
       <Helmet>
@@ -242,7 +244,11 @@ export default () => {
               <Typography variant="h6" style={{ marginBottom: 4 }}>
                 Hajra Shahab
               </Typography>
-              <Link target="__blank" href="mailto:hajrashahab05@gmail.com">
+              <Link
+                color="inherit"
+                target="__blank"
+                href="mailto:hajrashahab05@gmail.com"
+              >
                 <Typography variant="p">hajrashahab05@gmail.com</Typography>
               </Link>
             </Box>
@@ -253,18 +259,31 @@ export default () => {
               justifyContent="space-between"
             >
               <Link
+                color="inherit"
                 target="__blank"
                 href="https://www.linkedin.com/in/hajrashahab/"
               >
                 LinkedIn
               </Link>
-              <Link target="__blank" href="https://twitter.com/HajraShahab">
+              <Link
+                color="inherit"
+                target="__blank"
+                href="https://twitter.com/HajraShahab"
+              >
                 Twitter
               </Link>
-              <Link target="__blank" href="https://github.com/HajraShahab">
+              <Link
+                color="inherit"
+                target="__blank"
+                href="https://github.com/HajraShahab"
+              >
                 Github
               </Link>
-              <Link target="__blank" href="https://medium.com/@hajrashahab">
+              <Link
+                color="inherit"
+                target="__blank"
+                href="https://medium.com/@hajrashahab"
+              >
                 Medium
               </Link>
             </Box>
