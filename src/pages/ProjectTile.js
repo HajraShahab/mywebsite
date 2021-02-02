@@ -39,7 +39,7 @@ export default ({ title, bodyText, link, imagelink, comingSoon }) => {
     buttonColor = "secondary"
     buttonText = "Coming Soon"
   } else {
-    buttonColor = "primary"
+    buttonColor = "default"
     buttonText = "Read More"
   }
 

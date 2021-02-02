@@ -7,6 +7,7 @@ import {
   Container,
   Paper,
   Button,
+  Link,
 } from "@material-ui/core"
 import "./app.css"
 import ProjectTile from "./ProjectTile"
@@ -192,26 +193,21 @@ export default () => {
           marginTop: "40px",
         }}
       >
-        <Container maxWidth="md" display="flex">
-          <Typography
-            variant="h5"
-            style={{
-              textAlign: "center",
-            }}
-          >
-            Blog
+        <Container maxWidth="lg" display="flex">
+          <Typography variant="h5" style={{ marginLeft: 32 }}>
+            Select Blog Posts
           </Typography>
           <Box display="flex">
             <BlogTile
               title="Karachi’s Urban Planning: An Abysmal State"
               bodyText="Karachi — the third-largest city in the world with a population of 16 million is on the brink of irreversible urban decay."
               link="https://hajrashahab.medium.com/karachis-urban-planning-an-abysmal-state-a3ac908259a1"
-              image="https://static.pakwheels.com/2020/06/53b466e674bfd.jpg"
+              imagelink="https://static.pakwheels.com/2020/06/53b466e674bfd.jpg"
             />
             <BlogTile
               title="How transportation systems have evolved in Pakistan"
               bodyText="It was chambered for .22 long rifle, and Case would’ve preferred lead azide explosives to the Tank War "
-              // src='' // src for image
+              imagelink="https://static.pakwheels.com/2020/06/53b466e674bfd.jpg"
               comingSoon={true}
             />
           </Box>
@@ -228,50 +224,50 @@ export default () => {
           paddingTop: "20px",
           paddingBottom: "20px",
           borderRadius: 0,
+          background: "black",
+          color: "white",
         }}
       >
-        <Container maxWidth="xs" style={{ width: "100%" }}>
+        <Container maxWidth="lg">
           <Box
+            p={2}
+            mt={20}
+            mb={5}
             style={{
               display: "flex",
-              justifyContent: "space-evenly",
+              flexDirection: "column",
             }}
           >
-            <a // The <a> tag defines a hyperlink, which is used to link from one page to another. The most important attribute of the <a> element is the href attribute, which indicates the link's destination. By default, links will appear as follows in all browsers: An unvisited link is underlined and blue.
-              target="__blank" // this tells the browser to open this link in a new tab
-              href="https://www.linkedin.com/in/hajrashahab/" //  The href attribute specifies the URL of the page the link goes to. Tip: You can use href="#top" or href="#" to link to the top of the current page
+            <Box display="flex" flexDirection="column" mb={2}>
+              <Typography variant="h6" style={{ marginBottom: 4 }}>
+                Hajra Shahab
+              </Typography>
+              <Link target="__blank" href="mailto:hajrashahab05@gmail.com">
+                <Typography variant="p">hajrashahab05@gmail.com</Typography>
+              </Link>
+            </Box>
+            <Box
+              display="flex"
+              mt={3}
+              width={350}
+              justifyContent="space-between"
             >
-              <img // standard img tag in HTML (this is used internally by Avatar in material ui)
-                src="LinkedInLogo.svg"
-                style={{ width: "40px", height: "40px" }}
-              />
-            </a>
-
-            <a target="__blank" href="mailto:hajrashahab05@gmail.com">
-              <img
-                src="EmailLogo2.svg"
-                style={{ width: "40px", height: "40px" }}
-              />
-            </a>
-
-            <a target="__blank" href="https://twitter.com/HajraShahab">
-              <img
-                src="twitterLogo.svg"
-                style={{ width: "40px", height: "40px" }}
-              />
-            </a>
-            <a target="__blank" href="https://github.com/HajraShahab">
-              <img
-                src="githubLogo.svg"
-                style={{ width: "40px", height: "40px" }}
-              />
-            </a>
-            <a target="__blank" href="https://medium.com/@hajrashahab">
-              <img
-                src="MediumLogo.svg"
-                style={{ width: "40px", height: "40px" }}
-              />
-            </a>
+              <Link
+                target="__blank"
+                href="https://www.linkedin.com/in/hajrashahab/"
+              >
+                LinkedIn
+              </Link>
+              <Link target="__blank" href="https://twitter.com/HajraShahab">
+                Twitter
+              </Link>
+              <Link target="__blank" href="https://github.com/HajraShahab">
+                Github
+              </Link>
+              <Link target="__blank" href="https://medium.com/@hajrashahab">
+                Medium
+              </Link>
+            </Box>
           </Box>
         </Container>
       </Paper>

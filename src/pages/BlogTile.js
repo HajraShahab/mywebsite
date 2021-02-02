@@ -6,6 +6,7 @@ import {
   Typography,
   Container,
   Paper,
+  Link,
 } from "@material-ui/core"
 import { makeStyles } from "@material-ui/core/styles"
 import Card from "@material-ui/core/Card"
@@ -17,9 +18,9 @@ import Button from "@material-ui/core/Button"
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 2000,
     marginTop: "40px",
     margin: 32,
+    flex: 1,
   },
   media: {
     height: "500px",
@@ -37,46 +38,40 @@ export default ({ title, bodyText, link, imagelink, comingSoon }) => {
     buttonColor = "secondary"
     buttonText = "Coming Soon"
   } else {
-    buttonColor = "primary"
+    buttonColor = "default"
     buttonText = "Read More"
   }
 
   return (
-    <Card className={classes.root}>
-      * im a project tile
+    <Card className={classes.root} elevation={0}>
       <Box
         style={{
           display: "flex",
           flexDirection: "column",
-          height: "300px",
-          background: "#333333",
         }}
       >
         <CardMedia
           style={{
-            position: "static",
-            width: "50%",
-            height: "100%",
+            height: "320px",
           }}
-          src={imagelink}
+          image={imagelink}
         />
         <CardContent
           style={{
             display: "flex",
             flexDirection: "column",
             height: "auto",
-            padding: "40px",
+            paddingLeft: 0,
+            paddingRight: 0,
+            paddingTop: "16px",
+            paddingBottom: "16px",
           }}
         >
           <Typography
             gutterBottom
-            variant="h5"
+            variant="h3"
             style={{
-              fontFamily: "Roboto",
               fontSize: "24px",
-              lineHeight: "24px",
-              letterSpacing: "0.15px",
-              color: "#FFFFFF",
             }}
           >
             {title}
@@ -86,31 +81,32 @@ export default ({ title, bodyText, link, imagelink, comingSoon }) => {
             color="textSecondary"
             component="p"
             style={{
-              fontFamily: "Roboto",
-              fontStyle: "normal",
               fontWeight: "normal",
-              fontSize: "14px",
-              lineHeight: "24px",
-              letterSpacing: "0.15px",
-              color: "#FFFFFF",
+              fontSize: "16px",
             }}
           >
             {bodyText}
           </Typography>
-          <a
+          <Link
             href={link}
-            style={{ marginLeft: "auto", marginTop: "auto" }}
+            style={{ marginTop: "32px" }}
             target="_blank"
+            color="default"
           >
-            <Button
-              size="medium"
-              color={buttonColor}
-              variant="contained"
-              disabled={comingSoon}
-            >
-              {buttonText}
-            </Button>
-          </a>
+            <Typography>
+              {buttonText}{" "}
+              <svg
+                width="17"
+                height="8"
+                viewBox="0 0 17 8"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M0 4H16" stroke="black" stroke-width="0.5" />
+                <path d="M12 1L16 4L12 7" stroke="black" stroke-width="0.5" />
+              </svg>
+            </Typography>
+          </Link>
         </CardContent>
       </Box>
     </Card>
