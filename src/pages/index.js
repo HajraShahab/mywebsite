@@ -12,7 +12,7 @@ import {
 } from "@material-ui/core"
 import "./app.css"
 import ProjectTile from "./ProjectTile"
-import BlogTile from "./blogTile"
+import BlogTile from "./BlogTile"
 
 import { Helmet } from "react-helmet"
 import { ThemeProvider } from "@material-ui/styles"
