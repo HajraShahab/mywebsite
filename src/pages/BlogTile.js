@@ -53,6 +53,8 @@ export default ({ title, bodyText, link, imagelink, comingSoon }) => {
         <CardMedia
           style={{
             height: "320px",
+            minHeight: "320px",
+            width: "100%",
           }}
           image={imagelink}
         />
